@@ -1,0 +1,82 @@
+{
+  "date": "2026-04-06",
+  "total_sites": 7,
+  "up": 0,
+  "down": 7,
+  "check_failed": 0,
+  "ssl_warnings": 0,
+  "alerts_triggered": true,
+  "notes": "All 7 sites returned HTTP 403 Forbidden. This is consistent with WAF/Cloudflare bot-blocking of the WebFetch agent user-agent rather than true downtime — all sites returned the same error simultaneously. SSL checks could not be completed (openssl could not establish connections in this sandbox environment). Manual verification recommended before treating as genuine outage.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden (likely WAF/bot-blocking)",
+      "checked_at": "2026-04-06T07:00:00Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden (likely WAF/bot-blocking)",
+      "checked_at": "2026-04-06T07:00:01Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden (likely WAF/bot-blocking)",
+      "checked_at": "2026-04-06T07:00:02Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden (likely WAF/bot-blocking)",
+      "checked_at": "2026-04-06T07:00:03Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden (likely WAF/bot-blocking)",
+      "checked_at": "2026-04-06T07:00:04Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden (likely WAF/bot-blocking)",
+      "checked_at": "2026-04-06T07:00:05Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden (likely WAF/bot-blocking)",
+      "checked_at": "2026-04-06T07:00:06Z"
+    }
+  ]
+}

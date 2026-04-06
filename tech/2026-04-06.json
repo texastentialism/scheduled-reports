@@ -1,0 +1,76 @@
+{
+  "date": "2026-04-06",
+  "window": "2026-03-30 to 2026-04-06",
+  "summary": {
+    "urgent": 0,
+    "recommended": 2,
+    "fyi": 3
+  },
+  "releases": [
+    {
+      "package": "next.js",
+      "version": "16.2.2",
+      "released": "2026-04-01",
+      "category": "RECOMMENDED",
+      "type": "stable",
+      "notes": "New stable release in the v16 line. Key fixes: TypeScript v6 deprecation handling, Turbopack server HMR enhancements, CSS HMR fix for Safari. Multiple canary features landed including MCP `get_compilation_issues` tool integration, SWC `experimental.swcEnvOptions`, and improved ISR error handling.",
+      "breaking_changes": false,
+      "action": "Evaluate upgrade from Next.js 15 — this is a major version bump. Review migration guide before upgrading. All repos currently on 15.5.14."
+    },
+    {
+      "package": "typescript",
+      "version": "6.0.2",
+      "released": "2026-03-23",
+      "category": "RECOMMENDED",
+      "type": "stable",
+      "notes": "TypeScript 6.0 stable (released March 23, just outside 7-day window but flagged due to widespread impact). All 6 repos are on TypeScript 5.9.3 and have 6.0.2 available. Next.js 16.2.2 already handles TS6 deprecation warnings.",
+      "breaking_changes": true,
+      "action": "Review TypeScript 6.0 migration guide at devblogs.microsoft.com/typescript/announcing-typescript-6-0/ before upgrading across repos."
+    },
+    {
+      "package": "vercel-cli",
+      "version": "50.39.0",
+      "released": "2026-04-03",
+      "category": "FYI",
+      "type": "minor",
+      "notes": "New `vercel tokens` subcommands for auth token management. New `vercel project access-summary` subcommand (lists member counts by role). `--id` flag support for `vercel build` and `vercel env pull`.",
+      "breaking_changes": false,
+      "action": "Run `vercel --version` to check current version; upgrade at your convenience."
+    },
+    {
+      "package": "vercel-cli",
+      "version": "50.38.3",
+      "released": "2026-04-02",
+      "category": "FYI",
+      "type": "patch",
+      "notes": "Improved `vercel link` command with better project matching across teams and clearer linking options for multiple matches.",
+      "breaking_changes": false,
+      "action": "No action needed."
+    },
+    {
+      "package": "node.js",
+      "version": "25.9.0",
+      "released": "2026-04-01",
+      "category": "FYI",
+      "type": "minor",
+      "notes": "Current channel (not LTS). Tyler targets Node.js 22 LTS. Notable: test runner MockModuleOptions.exports consolidation, AsyncLocalStorage `using` scopes, new `--max-heap-size` CLI flag, TurboSHAKE/KangarooTwelve crypto algorithms, SEA code cache support for ESM entrypoints.",
+      "breaking_changes": false,
+      "action": "No action needed. Node.js 22 LTS received security patches (CVE-2026-21637 through 21717) on March 24 — ensure your Node.js 22 install is updated to 22.22.2."
+    }
+  ],
+  "not_released_this_week": [
+    { "package": "react", "latest": "19.2.4", "last_released": "2026-01-26", "notes": "No new releases in window." },
+    { "package": "tailwindcss", "latest": "4.2.2", "last_released": "2026-03-18", "notes": "No new releases in window. Vite 8 support added in 4.2.2." },
+    { "package": "recharts", "latest": "3.8.1", "last_released": "2026-03-25", "notes": "No new releases in window." },
+    { "package": "lucide-react", "latest": "1.7.0", "last_released": "2026-03-25", "notes": "No new releases in window. All repos still on 0.x — v1.0 was a major bump." },
+    { "package": "fuse.js", "latest": "unknown", "last_released": null, "notes": "No recent releases found in search window." },
+    { "package": "sherpa-onnx", "latest": "unknown", "last_released": null, "notes": "No recent releases found in search window." }
+  ],
+  "cross_cutting_observations": [
+    "All 6 repos are 1-2 major versions behind on lucide-react (still on 0.x, latest is 1.7.0). This is a low-risk upgrade but worth doing.",
+    "TypeScript 6.0 is available across all repos — coordinate a single upgrade cycle.",
+    "Next.js 16 is available; the-squeeze is currently on 15.5.14. Evaluate migration.",
+    "eslint 10.x is available; most repos are on 8.x or 9.x.",
+    "Node.js 22 security patches (8 CVEs, March 24) should already be applied — verify your local and CI Node.js 22 version is 22.22.2+."
+  ]
+}
