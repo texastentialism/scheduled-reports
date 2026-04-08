@@ -1,0 +1,82 @@
+{
+  "date": "2026-04-08",
+  "total_sites": 7,
+  "up": 0,
+  "down": 7,
+  "check_failed": 0,
+  "ssl_warnings": 0,
+  "alerts_triggered": true,
+  "notes": "All 7 sites returned HTTP 403. This is consistent with CDN/bot-protection blocking the WebFetch tool's IP/user-agent rather than actual site downtime. The texpolls.com response included 'x-deny-reason: host_not_allowed' confirming CDN-level blocking. SSL checks could not be completed (no outbound network access from bash in this environment). Recommend manual verification before treating as true downtime.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — likely bot-protection/CDN block (not confirmed outage)",
+      "checked_at": "2026-04-08T12:02:00Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "down",
+      "response_size_bytes": 16,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — x-deny-reason: host_not_allowed (CDN block confirmed)",
+      "checked_at": "2026-04-08T12:02:00Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — likely bot-protection/CDN block (not confirmed outage)",
+      "checked_at": "2026-04-08T12:02:00Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — likely bot-protection/CDN block (not confirmed outage)",
+      "checked_at": "2026-04-08T12:02:00Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — likely bot-protection/CDN block (not confirmed outage)",
+      "checked_at": "2026-04-08T12:02:00Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — likely bot-protection/CDN block (not confirmed outage)",
+      "checked_at": "2026-04-08T12:02:00Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — likely bot-protection/CDN block (not confirmed outage)",
+      "checked_at": "2026-04-08T12:02:00Z"
+    }
+  ]
+}

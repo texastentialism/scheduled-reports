@@ -1,0 +1,230 @@
+{
+  "date": "2026-04-08",
+  "search_profile": {
+    "target_titles": ["Director/VP Strategy & Operations", "Chief of Staff", "Head of Business Operations", "Director of Analytics", "Strategy Manager"],
+    "location": "Austin TX, remote-friendly, Texas",
+    "salary_range": "$150K-250K+",
+    "target_companies": "tech companies, startups, PE-backed businesses"
+  },
+  "total_found": 15,
+  "top_3_picks": [
+    "Mesa — Chief of Staff (Austin, in-person, CEO's right hand at growth-stage fintech)",
+    "Way — Chief of Staff (Austin, COO-facing ops + analytics, strong fit)",
+    "Knoetic — Chief of Staff, Strategy & Ops (remote, people analytics platform, MBA + consulting ideal)"
+  ],
+  "market_temperature": "warm",
+  "roles": [
+    {
+      "title": "Chief of Staff",
+      "company": "Mesa",
+      "location": "Austin, TX (in-person)",
+      "url": "https://job-boards.greenhouse.io/mesamember/jobs/4821892008",
+      "company_size": "Growth-stage fintech startup",
+      "funding": "Series B",
+      "why_matches": "Austin in-person role as CEO's right hand orchestrating highest-priority strategic initiatives — MBA + consulting background is ideal fit.",
+      "posted_date": "2026-04-02"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Way",
+      "location": "Austin, TX",
+      "url": "https://jobs.lever.co/Way/13fd28cb-8e58-4a99-9edf-d722bad3d618/",
+      "company_size": "Series B startup (~100 employees)",
+      "funding": "Series B",
+      "why_matches": "Austin HQ, works with COO on internal reporting and analytical deep-dives — data fluency + ops leadership background is a strong match.",
+      "posted_date": "2026-03-28"
+    },
+    {
+      "title": "Chief of Staff, Strategy & Ops",
+      "company": "Knoetic",
+      "location": "Remote",
+      "url": "https://job-boards.greenhouse.io/knoetic/jobs/5519838004",
+      "company_size": "Series B (~80 employees)",
+      "funding": "Series B",
+      "why_matches": "People analytics platform seeking MBA + consulting background to own strategy and operations — Tyler's Deloitte and analytics skills map directly.",
+      "posted_date": "2026-03-20"
+    },
+    {
+      "title": "Chief of Staff and Director of Strategic Initiatives",
+      "company": "FSG",
+      "location": "Remote (US)",
+      "url": "https://job-boards.greenhouse.io/fsg/jobs/5412653004",
+      "company_size": "Mid-size (~200 employees)",
+      "funding": "Mission-driven nonprofit consulting firm",
+      "why_matches": "Remote role reporting directly to CEO as strategic thought partner — consulting background (Deloitte) and cross-functional leadership are core requirements.",
+      "posted_date": "2026-03-15"
+    },
+    {
+      "title": "Chief of Staff to CEO",
+      "company": "Rescale",
+      "location": "Remote",
+      "url": "https://jobs.ashbyhq.com/rescale/1598f382-54da-40fe-9946-8bac2fad8514",
+      "company_size": "Series C (~250 employees)",
+      "funding": "Series C, $105M raised",
+      "why_matches": "HPC cloud platform, remote CoS to CEO role managing cross-functional strategic priorities — tech fluency + strategy background are key.",
+      "posted_date": "2026-04-01"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Self Financial, Inc.",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/chief-of-staff-at-self-financial-inc-3747143722",
+      "company_size": "Series D (~400 employees)",
+      "funding": "Series D, fintech",
+      "why_matches": "Austin-based fintech scaling operations; MBA + data analytics skills align with what fintech CoS roles demand.",
+      "posted_date": "2026-03-10"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Rex",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/chief-of-staff-at-rex-3817465814",
+      "company_size": "Early-to-mid stage startup",
+      "funding": "Series A/B",
+      "why_matches": "Austin-based startup CoS role; fast-paced environment matching Tyler's strategy & ops profile and appetite for high-ownership roles.",
+      "posted_date": "2026-03-25"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Dandy",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/chief-of-staff-at-dandy-1882932754",
+      "company_size": "Series D (~500 employees)",
+      "funding": "Series D, dental tech",
+      "why_matches": "High-growth dental tech company in Austin; CoS role spans strategy, ops, and stakeholder management across a scaling organization.",
+      "posted_date": "2026-02-20"
+    },
+    {
+      "title": "Strategic Program Director",
+      "company": "Outreach",
+      "location": "Remote",
+      "url": "https://jobs.lever.co/outreach/69936607-95d3-473d-9868-56ce71faeaec",
+      "company_size": "Series F (~1,000 employees)",
+      "funding": "Late-stage, sales execution platform",
+      "why_matches": "Office of the CEO, leading most critical cross-functional initiatives — consulting + program management background from Deloitte maps directly.",
+      "posted_date": "2026-03-18"
+    },
+    {
+      "title": "Chief of Staff, Strategy",
+      "company": "Aledade",
+      "location": "Remote",
+      "url": "https://jobs.lever.co/aledade/2cf2e14f-9f7d-483a-a80f-55dccd959389",
+      "company_size": "Series F (~900 employees)",
+      "funding": "Series F, health tech",
+      "why_matches": "Partners with Chief Strategy Officer on strategic priorities and alignment — MBA + analytics + consulting background is near-exact match.",
+      "posted_date": "2026-03-22"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Gather AI",
+      "location": "Remote",
+      "url": "https://www.ziprecruiter.com/c/Gather-AI/Job/Chief-of-Staff/-in-Remote,US?jid=07891b37b5374d0d",
+      "company_size": "Series B (~75 employees)",
+      "funding": "Series B, warehouse AI/robotics",
+      "why_matches": "Remote CoS at AI startup with PE-adjacent growth trajectory; tech fluency + ops background are well-suited for a scaling AI platform.",
+      "posted_date": "2026-03-30"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "SpryPoint",
+      "location": "Remote",
+      "url": "https://jobs.lever.co/sprypointservices/283ec14a-5b32-4e89-8282-deb4a8f687e7",
+      "company_size": "PE-backed SaaS (~150 employees)",
+      "funding": "PE-backed utility software",
+      "why_matches": "PE-backed SaaS company — Tyler's MBA + operational excellence profile is what PE portcos typically seek for CoS/strategy roles.",
+      "posted_date": "2026-03-12"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Superpower",
+      "location": "Remote",
+      "url": "https://jobs.ashbyhq.com/superpower/e9b055d7-c292-4953-b9d1-7153d0255b84",
+      "company_size": "Series A (~50 employees)",
+      "funding": "Series A, health/longevity",
+      "why_matches": "High-growth health tech startup; early-stage CoS role with broad scope matching Tyler's preference for high-ownership positions.",
+      "posted_date": "2026-04-04"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Deeter Analytics",
+      "location": "Remote",
+      "url": "https://jobs.ashbyhq.com/deeter-analytics/f170857f-08cf-454b-bdf8-559b3250bb46/application",
+      "company_size": "Early stage (~30 employees)",
+      "funding": "Seed/Series A",
+      "why_matches": "Analytics-focused company seeking CoS — Tyler's strong data analytics background + MBA is a direct match for this role.",
+      "posted_date": "2026-04-03"
+    },
+    {
+      "title": "Strategy and Operations — Marketing",
+      "company": "FluidStack",
+      "location": "Austin, TX",
+      "url": "https://startup.jobs/locations/austin",
+      "company_size": "Series A (~60 employees)",
+      "funding": "Series A, AI compute infrastructure",
+      "why_matches": "Austin-based AI infra startup, strategy & ops role at the intersection of marketing and growth — tech fluency + ops background is a match.",
+      "posted_date": "2026-04-06"
+    }
+  ],
+  "market_signals": {
+    "market_temperature": "warm",
+    "temperature_notes": "Austin market has 100+ Chief of Staff openings and 130+ Director Analytics openings actively listed as of April 2026. Demand is solid but competition is high as the MBA/consulting-to-tech-ops pipeline is well-established.",
+    "salary_trends": {
+      "chief_of_staff_startup": "$150K-$200K base + equity (Series B/C); $175K-$220K at Series D+",
+      "director_analytics_austin": "$140K-$185K base (Built In Austin 2025 data)",
+      "director_operations_austin": "$130K-$175K base",
+      "vp_strategy_remote": "$180K-$250K at late-stage or PE-backed"
+    },
+    "in_demand_skills": [
+      "Cross-functional program management",
+      "Data analytics / business intelligence",
+      "MBA from top program",
+      "Management consulting background (MBB / Big 4)",
+      "AI/tech fluency",
+      "Stakeholder alignment at executive level",
+      "P&L ownership or financial modeling",
+      "OKR frameworks and operational cadence design"
+    ],
+    "active_hiring_companies": [
+      "Mesa (Austin, fintech)",
+      "Way (Austin, mobility/COO-adjacent)",
+      "Self Financial (Austin, fintech)",
+      "Rescale (remote, HPC cloud)",
+      "Aledade (remote, health tech)",
+      "Knoetic (remote, people analytics)"
+    ],
+    "notable_trends": [
+      "PE-backed portcos in Austin actively seeking ops leaders with MBA + consulting pedigree",
+      "AI/ML companies increasingly hiring CoS roles to manage CEO bandwidth as product complexity grows",
+      "Remote CoS roles now common at Series B+ — no longer requiring Austin presence",
+      "Director of Analytics roles shifting toward 'Analytics + Strategy' hybrid titles",
+      "Compensation for Austin strategy roles has increased ~8-12% YoY through 2025-2026"
+    ]
+  },
+  "summary": {
+    "total_roles_found": 15,
+    "austin_local": 7,
+    "remote": 8,
+    "top_3_picks": [
+      {
+        "rank": 1,
+        "company": "Mesa",
+        "title": "Chief of Staff",
+        "reason": "Austin in-person, CEO's right hand at growth-stage fintech — exact role type and location match"
+      },
+      {
+        "rank": 2,
+        "company": "Way",
+        "title": "Chief of Staff",
+        "reason": "Austin HQ, COO-facing with analytics + operational reporting scope — strong alignment with Tyler's data + ops skillset"
+      },
+      {
+        "rank": 3,
+        "company": "Knoetic",
+        "title": "Chief of Staff, Strategy & Ops",
+        "reason": "People analytics platform seeking exactly MBA + consulting background; remote flexibility with strong scope"
+      }
+    ],
+    "market_temperature": "warm",
+    "recommendation": "Strong pipeline of CoS and Director-level strategy roles in Austin and remote. Mesa and Way should be top priority given Austin presence and tight fit. For remote, Rescale (Series C) and Aledade (Series F health tech) offer the strongest comp potential and organizational scale."
+  }
+}
