@@ -1,0 +1,82 @@
+{
+  "date": "2026-04-09",
+  "total_sites": 7,
+  "up": 0,
+  "down": 0,
+  "check_failed": 7,
+  "ssl_warnings": 0,
+  "alerts_triggered": false,
+  "notes": "All uptime checks failed due to environment-level network restrictions. WebFetch returned HTTP 403 for all 7 sites simultaneously, indicating the WebFetch proxy IP is blocked by Cloudflare/WAF on these domains (not actual site downtime). Direct outbound connectivity is unavailable in this sandbox (curl returns 000, openssl s_client cannot handshake). SSL expiry data is unavailable. Sites are expected to be operational — this is a check infrastructure limitation, not a site outage.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "WebFetch returned HTTP 403 (proxy IP likely blocked by Cloudflare); direct SSL check unavailable (no outbound connectivity)",
+      "checked_at": "2026-04-09T12:38:00Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "WebFetch returned HTTP 403 (proxy IP likely blocked by Cloudflare); direct SSL check unavailable (no outbound connectivity)",
+      "checked_at": "2026-04-09T12:38:00Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "WebFetch returned HTTP 403 (proxy IP likely blocked by Cloudflare); direct SSL check unavailable (no outbound connectivity)",
+      "checked_at": "2026-04-09T12:38:00Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "WebFetch returned HTTP 403 (proxy IP likely blocked by Cloudflare); direct SSL check unavailable (no outbound connectivity)",
+      "checked_at": "2026-04-09T12:38:00Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "WebFetch returned HTTP 403 (proxy IP likely blocked by Cloudflare); direct SSL check unavailable (no outbound connectivity)",
+      "checked_at": "2026-04-09T12:38:00Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "WebFetch returned HTTP 403 (proxy IP likely blocked by Cloudflare); direct SSL check unavailable (no outbound connectivity)",
+      "checked_at": "2026-04-09T12:38:00Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "WebFetch returned HTTP 403 (proxy IP likely blocked by Cloudflare); direct SSL check unavailable (no outbound connectivity)",
+      "checked_at": "2026-04-09T12:38:00Z"
+    }
+  ]
+}
