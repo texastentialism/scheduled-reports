@@ -1,0 +1,82 @@
+{
+  "date": "2026-04-11",
+  "total_sites": 7,
+  "up": 0,
+  "down": 7,
+  "check_failed": 0,
+  "ssl_warnings": 0,
+  "alerts_triggered": true,
+  "notes": "All 7 sites returned HTTP 403 from WebFetch. This is almost certainly WAF/bot-protection (Cloudflare or similar) blocking the automated fetch agent — not true downtime. SSL checks returned no data because outbound raw TCP (openssl s_client) is blocked in this environment. Manual spot-check recommended before treating these as real outages.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 — likely WAF/bot-protection blocking automated fetch",
+      "checked_at": "2026-04-11T12:44:22Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 — likely WAF/bot-protection blocking automated fetch",
+      "checked_at": "2026-04-11T12:44:22Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 — likely WAF/bot-protection blocking automated fetch",
+      "checked_at": "2026-04-11T12:44:22Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 — likely WAF/bot-protection blocking automated fetch",
+      "checked_at": "2026-04-11T12:44:22Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 — likely WAF/bot-protection blocking automated fetch",
+      "checked_at": "2026-04-11T12:44:22Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 — likely WAF/bot-protection blocking automated fetch",
+      "checked_at": "2026-04-11T12:44:22Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 — likely WAF/bot-protection blocking automated fetch",
+      "checked_at": "2026-04-11T12:44:22Z"
+    }
+  ]
+}
