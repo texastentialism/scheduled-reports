@@ -1,0 +1,82 @@
+{
+  "date": "2026-04-12",
+  "total_sites": 7,
+  "up": 0,
+  "down": 0,
+  "check_failed": 7,
+  "ssl_warnings": 0,
+  "alerts_triggered": false,
+  "notes": "All 7 sites returned HTTP 403 Forbidden from the WebFetch tool. This is consistent with CDN/bot-protection (e.g. Cloudflare) blocking the automated checker user agent — not indicative of actual site downtime. Actual availability for real users could not be confirmed. SSL expiry checks also failed (openssl unavailable in this environment). Manual verification recommended if concerned.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — bot protection / CDN blocking detected; actual site status unknown",
+      "checked_at": "2026-04-12T06:00:00Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — bot protection / CDN blocking detected; actual site status unknown",
+      "checked_at": "2026-04-12T06:00:00Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — bot protection / CDN blocking detected; actual site status unknown",
+      "checked_at": "2026-04-12T06:00:00Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — bot protection / CDN blocking detected; actual site status unknown",
+      "checked_at": "2026-04-12T06:00:00Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — bot protection / CDN blocking detected; actual site status unknown",
+      "checked_at": "2026-04-12T06:00:00Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — bot protection / CDN blocking detected; actual site status unknown",
+      "checked_at": "2026-04-12T06:00:00Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": null,
+      "ssl_days_remaining": null,
+      "error": "HTTP 403 Forbidden — bot protection / CDN blocking detected; actual site status unknown",
+      "checked_at": "2026-04-12T06:00:00Z"
+    }
+  ]
+}
