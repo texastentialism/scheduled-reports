@@ -1,0 +1,159 @@
+{
+  "date": "2026-04-13",
+  "week_ending": "2026-04-13",
+  "summary": {
+    "urgent": 2,
+    "recommended": 4,
+    "fyi": 4,
+    "total_packages_checked": 11
+  },
+  "releases": [
+    {
+      "package": "next",
+      "category": "URGENT",
+      "current_stable": "16.2.3",
+      "release_date": "2026-04-11",
+      "days_ago": 2,
+      "type": "security patch",
+      "description": "Backported security + stability fixes for Next.js 16.x. Addresses four CVEs patched in the same release.",
+      "cves": [
+        {
+          "id": "CVE-2026-29057",
+          "severity": "high",
+          "title": "HTTP request smuggling in rewrites — requires app configured with rewrites pointing to external backend; attacker crafts chunked-encoded request",
+          "affected_versions": "16.x prior to 16.2.3"
+        },
+        {
+          "id": "CVE-2026-27979",
+          "severity": "high",
+          "title": "Denial of Service via unbounded request buffering — affects Server Components in versions 16.0.1–16.1.6",
+          "affected_versions": "16.0.1–16.1.6"
+        },
+        {
+          "id": "CVE-2026-27980",
+          "severity": "high",
+          "title": "Denial of Service in Next.js image handling — LRU disk cache fix",
+          "affected_versions": "16.x prior to 16.2.3"
+        },
+        {
+          "id": "CVE-2026-27977",
+          "severity": "moderate",
+          "title": "Cross-site dev-only WebSocket connections blocked",
+          "affected_versions": "16.x prior to 16.2.3"
+        }
+      ],
+      "breaking_changes": false,
+      "action": "Run `npm install next@latest` in all Next.js projects immediately. Fix available as non-major bump."
+    },
+    {
+      "package": "typescript",
+      "category": "URGENT",
+      "current_stable": "6.0.2",
+      "release_date": "2026-03-23",
+      "days_ago": 21,
+      "type": "major release",
+      "description": "TypeScript 6.0 — the last JavaScript-based release. Microsoft is rebuilding the compiler in Go for 7.0. Ships with 9 default setting changes that will break builds on upgrade without preparation.",
+      "breaking_changes": true,
+      "breaking_change_details": [
+        "strict: true is now the default (was false)",
+        "moduleResolution: 'classic' removed — must use 'nodenext' or 'bundler'",
+        "Minimum target is now ES2015 — target: 'es5' deprecated",
+        "esModuleInterop and allowSyntheticDefaultImports can no longer be set to false"
+      ],
+      "migration_tool": "npx @andrewbranch/ts5to6",
+      "your_stack": "All repos are on TypeScript 5.9.3 — major bump available",
+      "action": "Do NOT upgrade without running migration tool first. Read full migration guide. Plan a dedicated upgrade sprint — this will break builds."
+    },
+    {
+      "package": "next",
+      "category": "RECOMMENDED",
+      "current_stable": "16.2",
+      "release_date": "2026-03",
+      "type": "minor release",
+      "description": "Next.js 16.2 — AI-ready create-next-app, browser log forwarding, dev server lock file handling, experimental Agent DevTools, Turbopack Server Fast Refresh, WASM support in Workers, Subresource Integrity for JS files, stable Adapter API.",
+      "breaking_changes": false,
+      "action": "Upgrade from 15.x in the-squeeze and Career-Portfolio. Separate migration guide available at nextjs.org/docs/app/guides/upgrading/version-16."
+    },
+    {
+      "package": "tailwindcss",
+      "category": "RECOMMENDED",
+      "current_stable": "4.2.2",
+      "release_date": "2026-02-18",
+      "type": "minor release",
+      "description": "Tailwind CSS 4.2 — new webpack plugin, 4 new color palettes (mauve, olive, mist, taupe), expanded logical property utilities, 3.8x faster recompilation.",
+      "breaking_changes": false,
+      "your_stack": "the-squeeze is on Tailwind 3.4.x — major version gap. Others may already be on v4.",
+      "action": "the-squeeze needs Tailwind v4 migration (CSS-first config, no more tailwind.config.js). Worth planning but not urgent."
+    },
+    {
+      "package": "@vercel/analytics",
+      "category": "RECOMMENDED",
+      "current_stable": "2.0.1",
+      "release_date": "2026",
+      "type": "major release",
+      "description": "Vercel Analytics v2 — breaking API changes. the-squeeze is on v1.6.1.",
+      "breaking_changes": true,
+      "action": "Review v2 changelog before upgrading."
+    },
+    {
+      "package": "lucide-react",
+      "category": "RECOMMENDED",
+      "current_stable": "1.8.0",
+      "release_date": "2026-04-09",
+      "days_ago": 4,
+      "type": "minor release",
+      "description": "lucide-react 1.8.0 — active icon library release. Both the-squeeze (0.460.0) and career-launchpad (0.577.0) are on v0.x — major version gap.",
+      "breaking_changes": true,
+      "action": "Check v1 migration notes. Icon names may have changed."
+    },
+    {
+      "package": "react",
+      "category": "FYI",
+      "current_stable": "19.2.5",
+      "release_date": "2026-04-08",
+      "days_ago": 5,
+      "type": "patch release",
+      "description": "React 19.2.5 — React Server Components cycle protection improvements. Minor maintenance release.",
+      "breaking_changes": false,
+      "action": "Upgrade at next dependency refresh cycle. No urgency."
+    },
+    {
+      "package": "nodejs",
+      "category": "FYI",
+      "current_stable": "24.x (LTS)",
+      "upcoming": "26.0.0",
+      "expected_release": "2026-04-22",
+      "days_until": 9,
+      "type": "upcoming major release",
+      "description": "Node.js 26 scheduled for April 22, 2026. Last release under the current 2-major-per-year model. Node.js 22 transitions from Active to Maintenance support this month.",
+      "breaking_changes": null,
+      "action": "Watch for release notes on April 22. Not yet available to test."
+    },
+    {
+      "package": "sherpa-onnx",
+      "category": "FYI",
+      "current_stable": "1.12.37",
+      "release_date": "2026-04-12",
+      "days_ago": 1,
+      "type": "patch release",
+      "description": "sherpa-onnx 1.12.37 — active development, very frequent minor releases. Patch release yesterday.",
+      "breaking_changes": false,
+      "action": "Monitor if using in SpokenKey. Update at discretion."
+    },
+    {
+      "package": "vercel-platform",
+      "category": "FYI",
+      "type": "platform changelog",
+      "description": "Vercel platform updates: Workflow SDK now supports custom class serialization via @workflow/serde. Qwen 3.6 Plus and GLM 5.1 added to AI Gateway. Sandbox now supports up to 32 vCPUs / 64 GB RAM for Enterprise. v0 quality regression reported after April 8 update (community tracking).",
+      "action": "FYI — no action required for current stack."
+    },
+    {
+      "package": "recharts",
+      "category": "FYI",
+      "current_stable": "3.x (active)",
+      "type": "active maintenance",
+      "description": "Recharts 3.x is actively maintained. No major release in past 7 days. No action needed.",
+      "action": "No action required."
+    }
+  ]
+}

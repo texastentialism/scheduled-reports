@@ -1,0 +1,259 @@
+{
+  "date": "2026-04-13",
+  "summary": {
+    "repos_scanned": 6,
+    "total_high": 34,
+    "total_critical": 0,
+    "total_moderate": 13,
+    "total_low": 1,
+    "repos_with_high_or_critical": 6
+  },
+  "repos": [
+    {
+      "repo": "the-squeeze",
+      "path": "/home/user/the-squeeze",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 1,
+        "moderate": 0,
+        "low": 0,
+        "total": 1
+      },
+      "high_critical_details": [
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js has a Denial of Service with Server Components (CVE-2026-27979 / CVE-2026-27980)",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install next@latest"
+        }
+      ],
+      "major_version_gaps": {
+        "next": {"current": "15.5.14", "latest": "16.2.3"},
+        "typescript": {"current": "5.9.3", "latest": "6.0.2"},
+        "tailwindcss": {"current": "3.4.19", "latest": "4.2.2"},
+        "lucide-react": {"current": "0.460.0", "latest": "1.8.0"},
+        "@vercel/analytics": {"current": "1.6.1", "latest": "2.0.1"},
+        "eslint": {"current": "8.57.1", "latest": "10.2.0"},
+        "eslint-config-next": {"current": "15.5.12", "latest": "16.2.3"},
+        "@types/node": {"current": "20.19.33", "latest": "25.6.0"}
+      }
+    },
+    {
+      "repo": "texas-elections",
+      "path": "/home/user/texas-elections",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 24,
+        "moderate": 7,
+        "low": 1,
+        "total": 32
+      },
+      "high_critical_details": [
+        {
+          "package": "@vercel/backends",
+          "severity": "high",
+          "title": "Vulnerable Vercel CLI internal package chain (@vercel/build-utils, @vercel/node, @vercel/cervel, @tootallnate/once, and 20+ others)",
+          "fix_available": true,
+          "fix_is_major_bump": true,
+          "recommended_fix": "npm install vercel@32.3.0 (major version bump required — review breaking changes first)"
+        }
+      ],
+      "note": "All 24 high vulns trace back to outdated Vercel CLI packages. Single fix: upgrade vercel to v32.3.0. This is a major bump — review changelog.",
+      "major_version_gaps": {}
+    },
+    {
+      "repo": "Career-Portfolio",
+      "path": "/home/user/Career-Portfolio",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 1,
+        "moderate": 2,
+        "low": 0,
+        "total": 3
+      },
+      "high_critical_details": [
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js has a Denial of Service with Server Components (CVE-2026-27979 / CVE-2026-27980)",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install next@latest"
+        }
+      ],
+      "major_version_gaps": {}
+    },
+    {
+      "repo": "career-launchpad",
+      "path": "/home/user/career-launchpad",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 4,
+        "moderate": 1,
+        "low": 0,
+        "total": 5
+      },
+      "high_critical_details": [
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js: HTTP request smuggling in rewrites (CVE-2026-29057) — no auth required, exploitable when rewrites point to external backend",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install next@16.2.3"
+        },
+        {
+          "package": "vite",
+          "severity": "high",
+          "title": "Vite vulnerable to Path Traversal in Optimized Deps .map handling",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install vite@latest"
+        },
+        {
+          "package": "flatted",
+          "severity": "high",
+          "title": "Prototype Pollution via parse() in NodeJS flatted",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install flatted@latest"
+        },
+        {
+          "package": "picomatch",
+          "severity": "high",
+          "title": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install picomatch@latest"
+        }
+      ],
+      "major_version_gaps": {
+        "lucide-react": {"current": "0.577.0", "latest": "1.8.0"},
+        "typescript": {"current": "5.9.3", "latest": "6.0.2"},
+        "eslint": {"current": "9.39.4", "latest": "10.2.0"},
+        "@types/node": {"current": "20.19.37", "latest": "25.6.0"}
+      }
+    },
+    {
+      "repo": "cca-study",
+      "path": "/home/user/cca-study",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 3,
+        "moderate": 3,
+        "low": 0,
+        "total": 6
+      },
+      "high_critical_details": [
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js has a Denial of Service with Server Components (CVE-2026-27979 / CVE-2026-27980)",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install next@16.2.3"
+        },
+        {
+          "package": "path-to-regexp",
+          "severity": "high",
+          "title": "path-to-regexp vulnerable to Denial of Service via sequential optional groups",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install path-to-regexp@latest"
+        },
+        {
+          "package": "picomatch",
+          "severity": "high",
+          "title": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install picomatch@latest"
+        }
+      ],
+      "major_version_gaps": {
+        "typescript": {"current": "5.9.3", "latest": "6.0.2"},
+        "eslint": {"current": "9.39.4", "latest": "10.2.0"},
+        "@types/node": {"current": "20.19.37", "latest": "25.6.0"}
+      }
+    },
+    {
+      "repo": "orbit-dashboard",
+      "path": "/home/user/orbit-dashboard",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 1,
+        "moderate": 0,
+        "low": 0,
+        "total": 1
+      },
+      "high_critical_details": [
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js: HTTP request smuggling in rewrites (CVE-2026-29057)",
+          "fix_available": true,
+          "fix_is_major_bump": false,
+          "recommended_fix": "npm install next@16.2.3"
+        }
+      ],
+      "major_version_gaps": {}
+    }
+  ],
+  "prioritized_fixes": [
+    {
+      "priority": 1,
+      "repo": "career-launchpad",
+      "action": "npm install next@16.2.3",
+      "reason": "HTTP request smuggling CVE-2026-29057 — exploitable on public-facing app. Non-major fix available.",
+      "severity": "high",
+      "cve": "CVE-2026-29057"
+    },
+    {
+      "priority": 2,
+      "repo": "orbit-dashboard",
+      "action": "npm install next@16.2.3",
+      "reason": "HTTP request smuggling CVE-2026-29057 — same issue as above.",
+      "severity": "high",
+      "cve": "CVE-2026-29057"
+    },
+    {
+      "priority": 3,
+      "repo": "career-launchpad",
+      "action": "npm install vite@latest",
+      "reason": "Path traversal in Vite dev server optimized deps — exploitable in dev environments.",
+      "severity": "high"
+    },
+    {
+      "priority": 4,
+      "repo": "career-launchpad",
+      "action": "npm install flatted@latest picomatch@latest",
+      "reason": "Prototype pollution (flatted) and glob method injection (picomatch).",
+      "severity": "high"
+    },
+    {
+      "priority": 5,
+      "repo": "texas-elections",
+      "action": "npm install vercel@32.3.0 (major bump — review changelog)",
+      "reason": "24 high vulns in Vercel CLI package chain. All resolve with a single Vercel CLI major version upgrade.",
+      "severity": "high",
+      "note": "Major version bump — review vercel changelog for breaking changes before upgrading"
+    },
+    {
+      "priority": 6,
+      "repo": "the-squeeze, Career-Portfolio, cca-study",
+      "action": "npm install next@16.2.3",
+      "reason": "Next.js DoS vulnerability in Server Components (CVE-2026-27979 / CVE-2026-27980). Non-major fix available.",
+      "severity": "high",
+      "cves": ["CVE-2026-27979", "CVE-2026-27980"]
+    },
+    {
+      "priority": 7,
+      "repo": "cca-study",
+      "action": "npm install path-to-regexp@latest",
+      "reason": "DoS via sequential optional groups in path-to-regexp.",
+      "severity": "high"
+    }
+  ]
+}
