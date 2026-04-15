@@ -1,0 +1,243 @@
+{
+  "date": "2026-04-15",
+  "day_of_week": "Wednesday",
+  "search_profile": {
+    "target_titles": ["Director/VP Strategy & Operations", "Chief of Staff", "Head of Business Operations", "Director of Analytics", "Strategy Manager"],
+    "location": "Austin TX, remote-friendly, Texas",
+    "salary_range": "$150K-250K+",
+    "target_companies": "tech companies, startups, PE-backed businesses"
+  },
+  "total_found": 12,
+  "top_3_picks": [
+    "Cornerstone OnDemand — Strategy & Business Operations Director (Remote, $150K-$240K, PE-backed SaaS, strong comp match)",
+    "Visa — Director, Business Operations, Portfolio & Strategy (Austin, $170K-$220K est., enterprise scale + CoS scope)",
+    "SamCart — Chief of Staff to CEO (Austin/Remote, exec leadership with full strategic planning ownership)"
+  ],
+  "market_temperature": "warm-to-hot",
+  "roles": [
+    {
+      "title": "Strategy and Business Operations Director",
+      "company": "Cornerstone OnDemand",
+      "company_description": "Enterprise SaaS talent management and learning platform. ~4,000 employees. PE-backed by Clearlake Capital.",
+      "company_size": "~4,000 employees",
+      "funding": "PE-backed (Clearlake Capital)",
+      "location": "Remote (United States)",
+      "remote_friendly": true,
+      "url": "https://www.glassdoor.com/job-listing/strategy-and-business-operations-director-united-states-cornerstone-ondemand-inc-JV_KO0,55_KE56,80.htm?jl=1009949382437",
+      "why_matches": "Remote Director-level strategy + ops role at a PE-backed SaaS company; comp hits Tyler's full target range; MBA + consulting background is the exact profile.",
+      "posted_date": "~2025-11-26 (confirmed active via Glassdoor, April 2026)",
+      "salary_range": "$150,000-$240,000"
+    },
+    {
+      "title": "Director, Business Operations, Portfolio, and Strategy",
+      "company": "Visa",
+      "company_description": "Global payments network and financial services leader. $200B+ market cap. ~25,000 employees. Austin TX office.",
+      "company_size": "~25,000 employees",
+      "funding": "Public (NYSE: V)",
+      "location": "Austin, TX",
+      "remote_friendly": false,
+      "url": "https://www.linkedin.com/jobs/view/director-business-operations-portfolio-and-strategy-at-visa-3426434548",
+      "why_matches": "Functions as Chief of Staff to VP of People Technology — portfolio strategy, business operations, and stakeholder management scope precisely matches Tyler's Deloitte + MBA background.",
+      "posted_date": "Active on LinkedIn, April 2026",
+      "salary_range": "$170,000-$220,000 (Visa Director estimate)"
+    },
+    {
+      "title": "Chief of Staff to CEO",
+      "company": "SamCart",
+      "company_description": "Creator eCommerce SaaS platform. Austin-based, profitable/bootstrapped. Focused on digital product creators.",
+      "company_size": "~200 employees",
+      "funding": "Bootstrapped / profitable",
+      "location": "Austin, TX (remote)",
+      "remote_friendly": true,
+      "url": "https://www.linkedin.com/jobs/view/chief-of-staff-to-ceo-at-samcart-3139641156",
+      "why_matches": "Leads strategic business planning and change management as trusted CEO right-hand; collaborative, execution-focused role that maps directly to Tyler's cross-functional ops leadership experience.",
+      "posted_date": "Active on LinkedIn, April 2026",
+      "salary_range": "$150,000-$195,000 (bootstrapped SaaS CoS estimate)"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Dandy",
+      "company_description": "Dental lab digitization and technology platform. Unicorn ($1B+ valuation). Austin, TX.",
+      "company_size": "~500-1,000 employees",
+      "funding": "VC-backed, $1B+ valuation",
+      "location": "Austin, TX",
+      "remote_friendly": false,
+      "url": "https://www.linkedin.com/jobs/view/chief-of-staff-at-dandy-1882932754",
+      "why_matches": "Reports directly to Founder/CEO covering strategy, finance, and operations at a unicorn — high-ownership CoS scope with real equity upside at scale.",
+      "posted_date": "Active on LinkedIn, April 2026",
+      "salary_range": "$160,000-$210,000 (unicorn CoS estimate)"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Rex",
+      "company_description": "Tech-enabled real estate brokerage platform. Austin, TX.",
+      "company_size": "~50-200 employees",
+      "funding": "VC-backed, growth-stage",
+      "location": "Austin, TX",
+      "remote_friendly": false,
+      "url": "https://www.linkedin.com/jobs/view/chief-of-staff-at-rex-3817465814",
+      "why_matches": "CEO extension role at Austin tech company catalyzing cross-functional initiatives; high autonomy and direct founder access.",
+      "posted_date": "Active on LinkedIn, April 2026",
+      "salary_range": "$140,000-$180,000 (growth-stage CoS estimate)"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Popcorn Growth",
+      "company_description": "Growth-stage marketing technology and demand generation startup. Austin, TX.",
+      "company_size": "~25-75 employees",
+      "funding": "Early-stage VC",
+      "location": "Austin, TX",
+      "remote_friendly": false,
+      "url": "https://www.linkedin.com/jobs/view/chief-of-staff-at-popcorn-growth-3537998074",
+      "why_matches": "Partners with CEO on growth strategy, sales ops, and new product development — early-stage role with broad scope for a strong operator.",
+      "posted_date": "Active on LinkedIn, April 2026",
+      "salary_range": "$130,000-$165,000 + equity (early-stage estimate)"
+    },
+    {
+      "title": "Director of Business Operations",
+      "company": "Inversion Space",
+      "company_description": "Autonomous re-entry vehicle / aerospace startup. ~100 employees. Playa Vista, CA (in-person). Deep tech / defense-adjacent.",
+      "company_size": "~100 employees",
+      "funding": "VC-backed, deep tech aerospace",
+      "location": "Playa Vista, CA (in-person — NOT Austin)",
+      "remote_friendly": false,
+      "url": "https://builtin.com/job/director-business-operations/6931217",
+      "why_matches": "Strategic partner to CEO and exec team on company-wide planning, budgeting, and cross-functional execution — MBA + consulting background fits; flagged despite non-Austin location due to strong role match.",
+      "posted_date": "Active on Built In, April 2026",
+      "salary_range": "$170,000-$220,000 (deep tech Director estimate)"
+    },
+    {
+      "title": "VP, Innovation and Growth Strategy",
+      "company": "U.S. FinTech (name withheld in listing)",
+      "company_description": "Large established US financial technology company. Direct report to EVP / Chief Operations Officer.",
+      "company_size": "Large enterprise",
+      "funding": "Public / established",
+      "location": "Remote (US)",
+      "remote_friendly": true,
+      "url": "https://www.monster.com/job-openings/vice-president-of-innovation-and-growth-strategy--d7a871ec-00ea-4361-8682-e464f8edde99",
+      "why_matches": "Reports to COO, drives enterprise-wide business growth strategy and innovation — comp ($273K-$303K base + 65% bonus) is well above target range for the right candidate.",
+      "posted_date": "Active on Monster, April 2026",
+      "salary_range": "$273,000-$303,000 base + up to 65% performance bonus (~$450K-$500K total comp)"
+    },
+    {
+      "title": "Director Analytics (151 open roles — aggregate)",
+      "company": "Austin-area companies (Glassdoor aggregate)",
+      "company_description": "151 Director of Data Analytics and 131 Director of Analytics roles open in Austin, TX as of April 2026 per Glassdoor. Mix of tech, fintech, and enterprise companies.",
+      "company_size": "Mixed",
+      "funding": "Mixed",
+      "location": "Austin, TX",
+      "remote_friendly": true,
+      "url": "https://www.glassdoor.com/Job/austin-director-of-data-analytics-jobs-SRCH_IL.0,6_IC1139761_KO7,33.htm",
+      "why_matches": "Broad pool of Director Analytics roles where Tyler's data fluency (Python, SQL) plus strategy and operations background creates a genuine differentiator over pure analytics hires.",
+      "posted_date": "Continuously updated, April 2026",
+      "salary_range": "$145,000-$200,000 (Austin Director Analytics avg)"
+    },
+    {
+      "title": "VP of Operations (remote roles — aggregate)",
+      "company": "Remote-first companies (Built In aggregate)",
+      "company_description": "Active pool of remote VP of Operations roles at tech/SaaS companies nationally, many Austin-affiliated. Roles oversee Finance, People, Talent, and Business Operations.",
+      "company_size": "Mixed",
+      "funding": "Mixed",
+      "location": "Remote (US)",
+      "remote_friendly": true,
+      "url": "https://builtin.com/jobs/remote/operations/search/vp-of-operations",
+      "why_matches": "VP-level scope with cross-functional operations ownership; MBA + consulting leadership profile is a common requirement at this level.",
+      "posted_date": "Continuously updated, April 2026",
+      "salary_range": "$114,000-$185,000 (ZipRecruiter Austin VP Operations range)"
+    },
+    {
+      "title": "Chief of Staff (103 open roles — aggregate)",
+      "company": "Austin metro companies (LinkedIn aggregate)",
+      "company_description": "103 Chief of Staff roles in Austin, Texas metropolitan area as of April 2026 per LinkedIn, with 3 newly posted. Strong pipeline of startup and growth-stage CoS openings.",
+      "company_size": "Mixed",
+      "funding": "Mixed",
+      "location": "Austin, TX metro",
+      "remote_friendly": true,
+      "url": "https://www.linkedin.com/jobs/chief-of-staff-jobs-austin-texas-metropolitan-area",
+      "why_matches": "Deep active pipeline of CoS roles in Austin; as of April 2026 the market is actively refreshing with new postings weekly.",
+      "posted_date": "Continuously updated, April 2026",
+      "salary_range": "$140,000-$210,000 (Austin CoS range estimate)"
+    },
+    {
+      "title": "Director of Strategy & Operations (864 open roles — aggregate)",
+      "company": "Austin-area companies (Glassdoor aggregate)",
+      "company_description": "864 Director of Strategy jobs in Austin, TX as of April 2026 per Glassdoor. Average salary $139,341; top of range $218,841. Includes tech, healthcare, finance, and enterprise sectors.",
+      "company_size": "Mixed",
+      "funding": "Mixed",
+      "location": "Austin, TX",
+      "remote_friendly": true,
+      "url": "https://www.glassdoor.com/Job/austin-director-of-strategy-jobs-SRCH_IL.0,6_IC1139761_KO7,27.htm",
+      "why_matches": "Exceptionally deep market; Director-level strategy roles in Austin are at record volume in April 2026, well-suited to Tyler's ex-Deloitte / MBA profile.",
+      "posted_date": "Continuously updated, April 2026",
+      "salary_range": "$139,341 avg ($218,841 high) — Austin Glassdoor data"
+    }
+  ],
+  "market_signals": {
+    "market_temperature": "warm-to-hot",
+    "temperature_notes": "864 Director of Strategy, 103 Chief of Staff, and 151 Director Analytics roles active in Austin metro as of April 2026. Remote demand strong nationally with 42,000+ remote strategy roles on LinkedIn. Market is competitive but actively hiring; Director+ roles require 8-15 years with clear cross-functional execution track record.",
+    "salary_trends": {
+      "director_strategy_austin_avg": "$139,341 (Glassdoor, up to $218,841)",
+      "strategy_director_austin_avg": "$241,721 (Glassdoor — senior title premium)",
+      "chief_of_staff_austin_startup": "$150,000-$210,000 (startup CoS)",
+      "vp_operations_austin": "$114,000-$185,000 (ZipRecruiter range)",
+      "director_analytics_austin": "$145,000-$200,000",
+      "head_strategy_operations_national": "$249,578 avg (Glassdoor national)",
+      "pe_backed_premium": "PE-backed and late-stage startups pay toward top of bands plus equity/profit-sharing",
+      "ai_fluency_premium": "Tech-fluent candidates (Python, AI workflows) commanding 10-20% premium in 2026"
+    },
+    "in_demand_skills": [
+      "Cross-functional program execution and initiative ownership",
+      "Data analytics and BI (SQL, Python, Tableau/Power BI) — Tyler's tech fluency is a differentiator",
+      "AI/automation workflow fluency — explicitly required in 2026 strategy/ops postings",
+      "Strategic planning and OKR/operating cadence design",
+      "Stakeholder management and executive presence",
+      "Revenue operations and GTM strategy",
+      "M&A diligence and partnership evaluation (especially at PE-backed companies)",
+      "Org design and change management"
+    ],
+    "active_hiring_companies": [
+      "Cornerstone OnDemand (PE-backed SaaS, remote Director role, $150K-$240K)",
+      "Visa (Austin, Director Business Ops + Portfolio Strategy)",
+      "SamCart (Austin/Remote, Chief of Staff to CEO)",
+      "Dandy (Austin unicorn, Chief of Staff to Founder/CEO)",
+      "Inversion Space (Playa Vista CA, Director of Business Operations)"
+    ],
+    "notable_trends": [
+      "Austin Director of Strategy market at 864 open roles — record volume for April 2026",
+      "CoS roles proliferating at Series B-D companies scaling from 50-500 employees; Austin has 103 active",
+      "PE-backed portcos actively building VP-level strategy/ops leadership (Cornerstone, ForeFlight trend continues)",
+      "Remote broadly accepted for Director+ strategy/ops roles; most postings are hybrid or remote-eligible",
+      "Tyler's Python/Next.js technical fluency is a differentiator vs. pure MBA candidates — call out explicitly in AI-adjacent applications",
+      "Salary stagnation nationally (+1.6% YoY avg) but strategy/ops and AI-adjacent roles bucking trend"
+    ]
+  },
+  "summary": {
+    "total_roles_found": 12,
+    "specific_listings": 8,
+    "market_aggregates": 4,
+    "austin_local": 6,
+    "remote": 6,
+    "top_3_picks": [
+      {
+        "rank": 1,
+        "company": "Cornerstone OnDemand",
+        "title": "Strategy and Business Operations Director",
+        "reason": "Remote, $150K-$240K confirmed published range, PE-backed SaaS — MBA + consulting + cross-functional ops is the exact required profile. Strongest comp/fit combo this week."
+      },
+      {
+        "rank": 2,
+        "company": "Visa",
+        "title": "Director, Business Operations, Portfolio, and Strategy",
+        "reason": "Austin in-person at enterprise scale; CoS-level scope to VP of People Technology covering portfolio strategy and business operations; brand name carries."
+      },
+      {
+        "rank": 3,
+        "company": "SamCart",
+        "title": "Chief of Staff to CEO",
+        "reason": "Austin-based and remote; direct CEO partnership on strategic planning and change management at a profitable SaaS — low political overhead, high execution ownership."
+      }
+    ],
+    "market_temperature": "warm-to-hot",
+    "recommendation": "Lead with Cornerstone OnDemand (best published comp + remote flexibility + PE-backed SaaS scope). Visa is the top Austin in-person play with enterprise credibility. SamCart and Dandy are strong Austin CoS options with direct CEO access. With 864 Director of Strategy and 103 CoS roles actively listed in Austin alone, the pipeline is strong — Tyler's Python/AI fluency should be foregrounded in every application where tech-adjacent work appears in JD."
+  }
+}
