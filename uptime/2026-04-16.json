@@ -1,0 +1,82 @@
+{
+  "date": "2026-04-16",
+  "total_sites": 7,
+  "up": 0,
+  "down": 7,
+  "check_failed": 0,
+  "ssl_warnings": 0,
+  "alerts_triggered": true,
+  "notes": "All 7 sites returned HTTP 403 from the WebFetch tool. However, SSL/TLS handshakes succeeded on all 7 domains (OpenSSL connected and retrieved valid certs), which strongly indicates the sites are serving traffic but the automated WebFetch crawler is being blocked by Cloudflare or Vercel WAF bot-protection — not actual downtime. Per monitoring rules, 403 is classified as non-2xx (down). Manual verification recommended before treating as a real outage.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-16",
+      "ssl_days_remaining": 30,
+      "error": "HTTP 403 Forbidden — likely Cloudflare/WAF bot protection blocking WebFetch crawler",
+      "checked_at": "2026-04-16T12:05:20Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-16",
+      "ssl_days_remaining": 30,
+      "error": "HTTP 403 Forbidden — likely Cloudflare/WAF bot protection blocking WebFetch crawler",
+      "checked_at": "2026-04-16T12:05:21Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-16",
+      "ssl_days_remaining": 30,
+      "error": "HTTP 403 Forbidden — likely Cloudflare/WAF bot protection blocking WebFetch crawler",
+      "checked_at": "2026-04-16T12:05:22Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-16",
+      "ssl_days_remaining": 30,
+      "error": "HTTP 403 Forbidden — likely Cloudflare/WAF bot protection blocking WebFetch crawler",
+      "checked_at": "2026-04-16T12:05:23Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-16",
+      "ssl_days_remaining": 30,
+      "error": "HTTP 403 Forbidden — likely Cloudflare/WAF bot protection blocking WebFetch crawler",
+      "checked_at": "2026-04-16T12:05:24Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-16",
+      "ssl_days_remaining": 30,
+      "error": "HTTP 403 Forbidden — likely Cloudflare/WAF bot protection blocking WebFetch crawler",
+      "checked_at": "2026-04-16T12:05:25Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-16",
+      "ssl_days_remaining": 30,
+      "error": "HTTP 403 Forbidden — likely Cloudflare/WAF bot protection blocking WebFetch crawler",
+      "checked_at": "2026-04-16T12:05:26Z"
+    }
+  ]
+}
