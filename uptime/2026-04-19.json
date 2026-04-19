@@ -1,0 +1,92 @@
+{
+  "date": "2026-04-19",
+  "total_sites": 8,
+  "up": 0,
+  "down": 8,
+  "check_failed": 0,
+  "ssl_warnings": 8,
+  "alerts_triggered": true,
+  "notes": "All 8 sites returned HTTP 403 Forbidden. This most likely indicates WebFetch is being blocked by bot-protection/CDN (Cloudflare or similar) rather than actual site downtime — all sites failing simultaneously makes a true outage unlikely. Treat as check_inconclusive for availability; investigate manually if concerned. SSL alert is genuine: all certs expire 2026-05-19 (29 days), below the 30-day warning threshold. converge-refresh.vercel.app added to monitoring today (8th site).",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-19",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — WebFetch likely blocked by CDN/bot protection",
+      "checked_at": "2026-04-19T12:07:50Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-19",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — WebFetch likely blocked by CDN/bot protection",
+      "checked_at": "2026-04-19T12:07:50Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-19",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — WebFetch likely blocked by CDN/bot protection",
+      "checked_at": "2026-04-19T12:07:50Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-19",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — WebFetch likely blocked by CDN/bot protection",
+      "checked_at": "2026-04-19T12:07:50Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-19",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — WebFetch likely blocked by CDN/bot protection",
+      "checked_at": "2026-04-19T12:07:50Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-19",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — WebFetch likely blocked by CDN/bot protection",
+      "checked_at": "2026-04-19T12:07:50Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-19",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — WebFetch likely blocked by CDN/bot protection",
+      "checked_at": "2026-04-19T12:07:50Z"
+    },
+    {
+      "url": "https://converge-refresh.vercel.app",
+      "name": "Converge Refresh",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-19",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — WebFetch likely blocked by CDN/bot protection",
+      "checked_at": "2026-04-19T12:07:50Z"
+    }
+  ]
+}
