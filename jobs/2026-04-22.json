@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-22",
+  "day_of_week": "Wednesday",
+  "mode": "selective",
+  "mode_note": "Tyler landed the Deloitte Converge Commercialization Lead role in Q1 2026. Active external searching has softened. This pulse surfaces only roles genuinely worth interrupting a brand-new internal product role for. Funnel is aggressively narrow: $200K+ base, fits ≥4/5 across role/industry/stage, and a credible one-sentence reason to leave.",
+  "search_window": "2026-04-15 to 2026-04-22",
+  "roles": [],
+  "roles_note": "No roles cleared all selective filters this week. Nothing posted in the last 7 days at target companies (OpenAI, Anthropic, Perplexity, Figma, Linear, Oura, Substack, Airbnb) met the CEO CoS / VP PMM / Founding GTM bar simultaneously. The Replit CoS to CEO ($260–355K, Ashby) and OpenAI Head of Ops & Strategy (GTM Finance, $302–560K) from Wave 24 remain in the tracker but were posted before the April 15 window. The OpenAI CoS to ChatGPT product team was found but reports to Head of ChatGPT (not CEO), is SF-only, and comp is unverified — does not clear the selective bar. An empty roles list is the correct output this week.",
+  "market_signals": [
+    {
+      "type": "exec",
+      "company": "OpenAI",
+      "summary": "Triple executive departure on April 17: CPO Kevin Weil, VP Research Bill Peebles, and Engineering leader Srinivas Narayanan all resigned simultaneously. Separate: COO Brad Lightcap shifted from COO to 'Special Projects' reporting to Sam Altman, with incoming CRO Denise Dresser absorbing revenue responsibilities. This is the most significant OpenAI reshuffling since 2023. Potential downstream CoS/S&O hiring in coming weeks as new leadership structures form.",
+      "date": "2026-04-17",
+      "url": "https://techstory.in/openai-executive-crisis-three-top-leaders-resign-simultaneously/"
+    },
+    {
+      "type": "funding",
+      "company": "Anthropic",
+      "summary": "Raised $30B Series G at a $380B valuation from GIC, Coatue, Sequoia, Fidelity, BlackRock, and Goldman Sachs. Pre-IPO scale. With 545 open roles and base salaries $300K–$425K, Anthropic is in aggressive hiring mode. Any CoS to CEO or Head of S&O opening here would be exceptional — set a career-page alert.",
+      "date": "2026-04",
+      "url": "https://jobsbyculture.com/blog/anthropic-vs-openai-2026"
+    },
+    {
+      "type": "exec",
+      "company": "Anthropic",
+      "summary": "CPO Mike Krieger (co-founder of Instagram) quietly resigned from Figma's board immediately before Anthropic announced Claude Design — a direct-to-design AI product that competes with Figma. Signals internal product ambitions expanding; potential product leadership restructuring downstream.",
+      "date": "2026-04",
+      "url": "https://mastermindnewsletter.substack.com/p/anthropic-just-stepped-on-figmas"
+    },
+    {
+      "type": "launch",
+      "company": "Oura",
+      "summary": "Launched Oura's first proprietary AI model powering Oura Advisor — expanded to women's reproductive health with biometric + longitudinal data integration. Signals move from hardware to AI platform company. If Oura is building a commercialization layer around this model, a Head of Product Marketing or Founding GTM role could follow.",
+      "date": "2026-03",
+      "url": "https://theaiinsider.tech/2026/03/02/the-week-ahead-in-ai-anthropics-stand-ouras-new-model-for-womens-health-new-ai-agent-from-perplexity-openai-hits-a-landmark-plus-upcoming-earnings-events/"
+    },
+    {
+      "type": "launch",
+      "company": "Perplexity",
+      "summary": "Launched 'Computer' — a multi-model AI system that plans, builds, and executes entire workflows by assigning subtasks to specialized agents. Significant product expansion beyond search. No CoS/S&O/PMM openings found at Perplexity this week (GRC Lead, IT Admin, and CS Engineer APAC were the visible open roles), but the product expansion may trigger GTM and commercialization hiring.",
+      "date": "2026-03",
+      "url": "https://theaiinsider.tech/2026/03/02/the-week-ahead-in-ai-anthropics-stand-ouras-new-model-for-womens-health-new-ai-agent-from-perplexity-openai-hits-a-landmark-plus-upcoming-earnings-events/"
+    },
+    {
+      "type": "funding",
+      "company": "OpenAI",
+      "summary": "Closed $122B mega-round at an $852B valuation (Amazon $50B, Nvidia $30B, SoftBank $30B). IPO targeting H2 2026. The leadership reshuffling this week (Weil, Peebles, Narayanan departures + Lightcap shift) happening simultaneously with IPO prep is a leading indicator of new strategic roles being created to stabilize and scale the org.",
+      "date": "2026-02",
+      "url": "https://singhajit.com/dev-weekly/2026/feb-23-mar-1/openai-110b-anthropic-pentagon-figma-codex-go-126/"
+    }
+  ],
+  "summary": {
+    "total_roles": 0,
+    "top_picks": [],
+    "market_temp": "hot",
+    "note": "The selective funnel is working correctly — 0 roles this week. The biggest signal is the OpenAI triple-executive departure (April 17): CPO Weil + two others out, COO Lightcap shifted. As new leadership structures settle over the next 2–4 weeks, watch for CoS-to-CEO or Head of S&O postings at OpenAI. Anthropic's $30B Series G signals the other major near-term watch. Set career-page alerts for both: openai.com/careers and anthropic.com/careers."
+  }
+}
