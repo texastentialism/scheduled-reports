@@ -1,0 +1,100 @@
+{
+  "date": "2026-04-23",
+  "total_sites": 8,
+  "up": 0,
+  "down": 8,
+  "check_failed": 0,
+  "ssl_warnings": 8,
+  "alerts_triggered": true,
+  "notes": "All 8 sites returned HTTP 403 Forbidden via WebFetch — continuing pattern of CDN/WAF bot protection blocking the monitoring environment. Simultaneous 403 across all domains confirms environment-level blocking, not genuine site outages. SSL WARNING: All certs expire 2026-05-23 (29 days remaining), slipping back below the 30-day threshold after yesterday's 30-day reading. The cert expiry is shifting day-by-day (Apr 21: May 21, Apr 22: May 22, Apr 23: May 23) suggesting Cloudflare is issuing rolling short-lived certs rather than a single 90-day cert — auto-renewal appears to be keeping pace but the 30-day window keeps triggering. No action likely needed but worth monitoring. alerts_triggered = true due to both HTTP 403 classification and ssl_warnings.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-23",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-23T12:30:00Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-23",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-23T12:30:00Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-23",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-23T12:30:00Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-23",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-23T12:30:00Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-23",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-23T12:30:00Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-23",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-23T12:30:00Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-23",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-23T12:30:00Z"
+    },
+    {
+      "url": "https://converge-refresh.vercel.app",
+      "name": "Converge Refresh",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-23",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-23T12:30:00Z"
+    }
+  ]
+}
