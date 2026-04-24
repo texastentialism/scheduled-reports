@@ -1,0 +1,100 @@
+{
+  "date": "2026-04-24",
+  "total_sites": 8,
+  "up": 0,
+  "down": 8,
+  "check_failed": 0,
+  "ssl_warnings": 0,
+  "alerts_triggered": true,
+  "notes": "All 8 sites returned HTTP 403 Forbidden — continuing pattern of CDN/WAF bot protection blocking the monitoring environment. WebFetch and curl both return 403 with 21-byte bodies; DNS and TLS handshakes succeed, confirming sites are reachable at network level. SSL NOTE: All certs now show 2026-05-24 expiry (30 days remaining today), stepping back above the <30-day warning threshold — ssl_warnings = 0 today. Rolling short-lived cert pattern continues (Apr 21→May 21, Apr 22→May 22, Apr 23→May 23, Apr 24→May 24), consistent with automated daily renewal. alerts_triggered = true due to HTTP 403 classification as 'down'; no SSL warning component today.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-24",
+      "ssl_days_remaining": 30,
+      "ssl_warning": false,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-24T12:00:00Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-24",
+      "ssl_days_remaining": 30,
+      "ssl_warning": false,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-24T12:00:00Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-24",
+      "ssl_days_remaining": 30,
+      "ssl_warning": false,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-24T12:00:00Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-24",
+      "ssl_days_remaining": 30,
+      "ssl_warning": false,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-24T12:00:00Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-24",
+      "ssl_days_remaining": 30,
+      "ssl_warning": false,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-24T12:00:00Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-24",
+      "ssl_days_remaining": 30,
+      "ssl_warning": false,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-24T12:00:00Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-24",
+      "ssl_days_remaining": 30,
+      "ssl_warning": false,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-24T12:00:00Z"
+    },
+    {
+      "url": "https://converge-refresh.vercel.app",
+      "name": "Converge Refresh",
+      "status": "down",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-24",
+      "ssl_days_remaining": 30,
+      "ssl_warning": false,
+      "error": "HTTP 403 Forbidden — CDN/bot protection blocking monitoring environment (ongoing pattern)",
+      "checked_at": "2026-04-24T12:00:00Z"
+    }
+  ]
+}
