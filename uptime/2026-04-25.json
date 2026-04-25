@@ -1,0 +1,92 @@
+{
+  "date": "2026-04-25",
+  "total_sites": 8,
+  "up": 0,
+  "down": 0,
+  "check_failed": 8,
+  "ssl_warnings": 8,
+  "alerts_triggered": true,
+  "notes": "WebFetch returned HTTP 403 for all 8 sites — consistent with CDN/WAF blocking the monitoring agent's IP/UA. TLS handshakes succeeded on all domains, confirming servers are reachable. Sites are likely UP. SSL certificates expire 2026-05-25 (29 days remaining), crossing the <30-day warning threshold on all domains.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-25",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — CDN/WAF likely blocking monitoring agent",
+      "checked_at": "2026-04-25T12:04:51Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-25",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — CDN/WAF likely blocking monitoring agent",
+      "checked_at": "2026-04-25T12:04:51Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-25",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — CDN/WAF likely blocking monitoring agent",
+      "checked_at": "2026-04-25T12:04:51Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-25",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — CDN/WAF likely blocking monitoring agent",
+      "checked_at": "2026-04-25T12:04:51Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-25",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — CDN/WAF likely blocking monitoring agent",
+      "checked_at": "2026-04-25T12:04:51Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-25",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — CDN/WAF likely blocking monitoring agent",
+      "checked_at": "2026-04-25T12:04:51Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-25",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — CDN/WAF likely blocking monitoring agent",
+      "checked_at": "2026-04-25T12:04:51Z"
+    },
+    {
+      "url": "https://converge-refresh.vercel.app",
+      "name": "Converge Refresh",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-05-25",
+      "ssl_days_remaining": 29,
+      "error": "HTTP 403 Forbidden — CDN/WAF likely blocking monitoring agent",
+      "checked_at": "2026-04-25T12:04:51Z"
+    }
+  ]
+}
