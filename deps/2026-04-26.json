@@ -1,0 +1,225 @@
+{
+  "date": "2026-04-26",
+  "repos": [
+    {
+      "repo": "the-squeeze",
+      "audit_summary": {"info": 0, "low": 0, "moderate": 1, "high": 1, "critical": 0, "total": 2},
+      "high_vulns": [
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js has a Denial of Service with Server Components (GHSA-q4gf-8mx6-v5v3) — related to CVE-2025-55182 / CVE-2025-66478 RCE chain",
+          "affected_range": ">=9.3.4-canary.0",
+          "fix_available": true,
+          "fix_version": "16.2.4",
+          "auto_fixable": false,
+          "note": "Fixing requires major version upgrade (15.5.14 → 16.2.4) with breaking async API changes"
+        }
+      ],
+      "major_version_bumps": {
+        "next": {"current": "15.5.14", "latest": "16.2.4"},
+        "tailwindcss": {"current": "3.4.19", "latest": "4.2.4"},
+        "typescript": {"current": "5.9.3", "latest": "6.0.3"},
+        "lucide-react": {"current": "0.460.0", "latest": "1.11.0"},
+        "eslint": {"current": "8.57.1", "latest": "10.2.1"},
+        "@types/node": {"current": "20.19.33", "latest": "25.6.0"},
+        "@vercel/analytics": {"current": "1.6.1", "latest": "2.0.1"},
+        "eslint-config-next": {"current": "15.5.12", "latest": "16.2.4"}
+      },
+      "minor_updates_available": ["react 19.2.4→19.2.5", "fuse.js 7.1.0→7.3.0", "postcss 8.5.6→8.5.10", "autoprefixer 10.4.24→10.5.0"]
+    },
+    {
+      "repo": "texas-elections",
+      "audit_summary": {"info": 0, "low": 1, "moderate": 11, "high": 22, "critical": 0, "total": 34},
+      "high_vulns": [
+        {
+          "package": "minimatch",
+          "severity": "high",
+          "title": "Multiple ReDoS vulnerabilities (GHSA-3ppc-4f35-3m26, GHSA-7r86-cg39-jmmj, GHSA-23c5-xmqv-rm74): repeated wildcards, GLOBSTAR segments, nested extglobs",
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "path-to-regexp",
+          "severity": "high",
+          "title": "ReDoS and DoS via backtracking regexps and sequential optional groups (GHSA-9wv6-86v2-598j, GHSA-j3q9-mxjg-w52f)",
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "tar",
+          "severity": "high",
+          "title": "Path traversal vulnerabilities: hardlink target escape via symlink chain, drive-relative linkpath (GHSA-83g3-92jg-28cx, GHSA-qffp-2rhf-9h96, GHSA-9ppj-qmqm-q256)",
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "undici",
+          "severity": "high",
+          "title": "Multiple: unbounded memory in WebSocket permessage-deflate decompression (GHSA-vrm6-8vpv-qv8q), unhandled exception in WebSocket client (GHSA-v9p9-hfj2-hcw8), HTTP request/response smuggling (GHSA-2mjp-6q6p-2qxm)",
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "@vercel/* (22 packages: backends, build-utils, cervel, elysia, express, fastify, fun, gatsby-plugin-vercel-builder, h3, hono, and 12 more)",
+          "severity": "high",
+          "title": "Multiple @vercel/* packages with high severity vulns — likely inherited from minimatch/path-to-regexp/tar/undici transitively",
+          "fix_available": true,
+          "auto_fixable": true,
+          "note": "Run npm audit fix to resolve most; major version bumps (@vercel/analytics 1→2, @vercel/speed-insights 1→2, vercel CLI 50→52) may be needed for full resolution"
+        }
+      ],
+      "major_version_bumps": {
+        "typescript": {"current": "5.9.3", "latest": "6.0.3"},
+        "vercel": {"current": "50.44.0", "latest": "52.0.0"},
+        "lucide-react": {"current": "0.575.0", "latest": "1.11.0"},
+        "eslint": {"current": "9.39.3", "latest": "10.2.1"},
+        "@types/node": {"current": "20.19.33", "latest": "25.6.0"},
+        "@vercel/analytics": {"current": "1.6.1", "latest": "2.0.1"},
+        "@vercel/speed-insights": {"current": "1.3.1", "latest": "2.0.0"}
+      }
+    },
+    {
+      "repo": "Career-Portfolio",
+      "audit_summary": {"info": 0, "low": 0, "moderate": 3, "high": 1, "critical": 0, "total": 4},
+      "high_vulns": [
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js DoS with Server Components (GHSA-q4gf-8mx6-v5v3)",
+          "fix_available": true,
+          "auto_fixable": true,
+          "note": "npm audit fix should resolve; major version upgrade may be needed"
+        }
+      ],
+      "major_version_bumps": {}
+    },
+    {
+      "repo": "career-launchpad",
+      "audit_summary": {"info": 0, "low": 0, "moderate": 2, "high": 4, "critical": 0, "total": 6},
+      "high_vulns": [
+        {
+          "package": "flatted",
+          "severity": "high",
+          "title": "Prototype Pollution via parse() in NodeJS flatted (GHSA-rf6f-7fwh-wjgh)",
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js DoS with Server Components (GHSA-q4gf-8mx6-v5v3)",
+          "fix_available": true,
+          "fix_version": "16.2.4",
+          "auto_fixable": false,
+          "note": "Currently on 16.x; patch to 16.2.4 should fix"
+        },
+        {
+          "package": "picomatch",
+          "severity": "high",
+          "title": "ReDoS via extglob quantifiers (GHSA-c2c7-rcm5-vvqj)",
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "vite",
+          "severity": "high",
+          "title": "Arbitrary File Read via Vite Dev Server WebSocket (GHSA-p9ff-h696-f583); server.fs.deny bypass via queries (GHSA-v2wj-q39q-566r)",
+          "fix_available": true,
+          "auto_fixable": true
+        }
+      ],
+      "major_version_bumps": {}
+    },
+    {
+      "repo": "cca-study",
+      "audit_summary": {"info": 0, "low": 0, "moderate": 4, "high": 3, "critical": 0, "total": 7},
+      "high_vulns": [
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js DoS with Server Components (GHSA-q4gf-8mx6-v5v3)",
+          "fix_available": true,
+          "fix_version": "16.2.4",
+          "auto_fixable": false
+        },
+        {
+          "package": "path-to-regexp",
+          "severity": "high",
+          "title": "ReDoS via backtracking regexps and sequential optional groups (GHSA-9wv6-86v2-598j, GHSA-j3q9-mxjg-w52f)",
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "picomatch",
+          "severity": "high",
+          "title": "ReDoS via extglob quantifiers (GHSA-c2c7-rcm5-vvqj)",
+          "fix_available": true,
+          "auto_fixable": true
+        }
+      ],
+      "major_version_bumps": {}
+    },
+    {
+      "repo": "orbit-dashboard",
+      "audit_summary": {"info": 0, "low": 0, "moderate": 1, "high": 1, "critical": 0, "total": 2},
+      "high_vulns": [
+        {
+          "package": "next",
+          "severity": "high",
+          "title": "Next.js DoS with Server Components (GHSA-q4gf-8mx6-v5v3)",
+          "fix_available": true,
+          "fix_version": "16.2.4",
+          "auto_fixable": false
+        }
+      ],
+      "major_version_bumps": {}
+    }
+  ],
+  "totals": {
+    "critical": 0,
+    "high": 32,
+    "moderate": 22,
+    "low": 1
+  },
+  "prioritized_fixes": [
+    {
+      "priority": 1,
+      "severity": "URGENT",
+      "action": "Upgrade `next` to 16.2.4 in ALL repos",
+      "repos_affected": ["the-squeeze", "Career-Portfolio", "career-launchpad", "cca-study", "orbit-dashboard"],
+      "rationale": "CVE-2025-55182 (CVSS 10.0) is actively exploited in the wild. GHSA-q4gf-8mx6-v5v3 DoS affects all versions >=9.3.4-canary.0. the-squeeze/Career-Portfolio/orbit-dashboard require a 15→16 major upgrade with async API refactoring.",
+      "command": "npm install next@16.2.4"
+    },
+    {
+      "priority": 2,
+      "severity": "HIGH",
+      "action": "Run `npm audit fix` in texas-elections to patch minimatch, path-to-regexp, tar, undici, @vercel/* transitive vulns (22 high)",
+      "repos_affected": ["texas-elections"],
+      "rationale": "22 high-severity vulnerabilities, most auto-fixable. ReDoS and path traversal are exploitable in server contexts.",
+      "command": "npm audit fix"
+    },
+    {
+      "priority": 3,
+      "severity": "HIGH",
+      "action": "Upgrade `vite` and `flatted` in career-launchpad",
+      "repos_affected": ["career-launchpad"],
+      "rationale": "Vite dev server arbitrary file read (GHSA-p9ff-h696-f583) is high severity; flatted prototype pollution (GHSA-rf6f-7fwh-wjgh) affects server-side parsing.",
+      "command": "npm audit fix"
+    },
+    {
+      "priority": 4,
+      "severity": "HIGH",
+      "action": "Patch `path-to-regexp` and `picomatch` in cca-study",
+      "repos_affected": ["cca-study"],
+      "command": "npm audit fix"
+    },
+    {
+      "priority": 5,
+      "severity": "RECOMMENDED",
+      "action": "Plan Next.js 15→16 migration for the-squeeze (also gets: React 19.2.5, Tailwind v4 migration, TypeScript 6)",
+      "repos_affected": ["the-squeeze"],
+      "rationale": "On oldest Next.js (15.5.14) and Tailwind v3 — two major version generations behind. These are interconnected upgrades best done together with careful testing."
+    }
+  ]
+}

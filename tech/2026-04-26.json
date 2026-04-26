@@ -1,0 +1,115 @@
+{
+  "date": "2026-04-26",
+  "stack": ["Next.js 15/16", "React 19", "TypeScript 5.x", "Tailwind CSS v4", "Vercel platform", "Node.js 22+", "Recharts 3", "Fuse.js", "lucide-react"],
+  "releases": [
+    {
+      "package": "next",
+      "category": "URGENT",
+      "current_in_repos": "15.5.14 (the-squeeze, Career-Portfolio, orbit-dashboard); 16.x (career-launchpad, cca-study, texas-elections)",
+      "latest": "16.2.4",
+      "released": "2026-04",
+      "summary": "CVE-2025-55182 / CVE-2025-66478 (React2Shell): CVSS 10.0 RCE in React Server Components — unauthenticated attacker can execute arbitrary code via crafted HTTP request. Actively exploited in the wild; 766+ Next.js hosts breached as of April 2026. Additional DoS via RSC (GHSA-q4gf-8mx6-v5v3, high severity) affects all versions >=9.3.4-canary.0. Fix: upgrade to 16.2.4 across all repos.",
+      "breaking_changes": "Next.js 16 removes synchronous access to Async Request APIs (cookies, headers, params, searchParams). Code relying on sync access will throw — must be refactored to await these calls.",
+      "migration_guide": "https://nextjs.org/docs/app/guides/upgrading/version-16",
+      "urls": [
+        "https://nextjs.org/blog/next-16",
+        "https://nextjs.org/blog/next-16-1",
+        "https://www.vulncheck.com/blog/cve-2025-55182-react-nextjs",
+        "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components"
+      ]
+    },
+    {
+      "package": "react / react-dom",
+      "category": "RECOMMENDED",
+      "current_in_repos": "19.2.4 (the-squeeze)",
+      "latest": "19.2.5",
+      "released": "2026-04-08",
+      "summary": "Maintenance patch — adds cycle protections for React Server Components. Non-breaking, safe to upgrade.",
+      "breaking_changes": null,
+      "urls": [
+        "https://github.com/facebook/react/releases/tag/v19.2.5"
+      ]
+    },
+    {
+      "package": "tailwindcss",
+      "category": "RECOMMENDED",
+      "current_in_repos": "3.4.19 (the-squeeze; still on v3), 4.x (others)",
+      "latest": "4.2.4",
+      "released": "2026-04-21",
+      "summary": "v4.2.4 fixes Vite alias resolution in @import/@plugin. v4.2.3 (April 20) improves tracking-* utility canonicalization. Full v4 rebuild performance: 3.5s → <100ms vs v3. the-squeeze is on v3 and should plan v4 migration.",
+      "breaking_changes": "v3 → v4 is a significant migration: CSS-first config replaces tailwind.config.js, new @import syntax, utility class renames.",
+      "urls": [
+        "https://tailwindcss.com/blog/tailwindcss-v4",
+        "https://github.com/tailwindlabs/tailwindcss/releases"
+      ]
+    },
+    {
+      "package": "typescript",
+      "category": "RECOMMENDED",
+      "current_in_repos": "5.9.3",
+      "latest": "6.0.3",
+      "released": "2026-03-17",
+      "summary": "TypeScript 6.0 Final released March 17, 2026. TypeScript 5.9 remains the last 5.x release (August 2025). All repos are one major version behind.",
+      "breaking_changes": "TypeScript 6 removes several deprecated patterns and tightens strictness rules. Migration guide available on GitHub gist.",
+      "urls": [
+        "https://gist.github.com/privatenumber/3d2e80da28f84ee30b77d53e1693378f"
+      ]
+    },
+    {
+      "package": "nodejs",
+      "category": "RECOMMENDED",
+      "current_in_repos": "runtime (not in package.json)",
+      "latest": "22.22.2 LTS",
+      "released": "2026-03-24",
+      "summary": "Node.js 22.x security patch March 24, 2026: 2 high severity issues fixed — memory leak in HTTP/2 servers (WINDOW_UPDATE frame overflow), V8 hash collision attack enabling performance degradation. If running Node.js 22 in production, ensure runtime is patched. LTS through April 30, 2027.",
+      "breaking_changes": null,
+      "urls": [
+        "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases"
+      ]
+    },
+    {
+      "package": "recharts",
+      "category": "FYI",
+      "current_in_repos": "3.x (orbit-dashboard)",
+      "latest": "3.8.1",
+      "released": "2026-04-20",
+      "summary": "Bug-fix release: fixes tooltip flicker in syncMethod=value, keyboard navigation when active index is outside zoomed area, PieChart double-padding with value=0 items. Non-breaking.",
+      "breaking_changes": null,
+      "urls": [
+        "https://github.com/recharts/recharts/releases"
+      ]
+    },
+    {
+      "package": "lucide-react",
+      "category": "FYI",
+      "current_in_repos": "0.460.0 (the-squeeze), 0.575.0 (texas-elections)",
+      "latest": "1.11.0",
+      "released": "2026-04",
+      "summary": "Major version bump to 1.x — repos on 0.x are behind. API changes likely; review migration guide before upgrading.",
+      "breaking_changes": "Major version bump 0.x → 1.x; check changelog for renamed/removed icons.",
+      "urls": [
+        "https://github.com/lucide-icons/lucide/releases"
+      ]
+    },
+    {
+      "package": "vercel-platform",
+      "category": "FYI",
+      "current_in_repos": "vercel CLI 50.x (texas-elections)",
+      "latest": "CLI 52.0.0",
+      "released": "2026-04",
+      "summary": "Vercel platform updates: AI Gateway now includes GPT-5.5, DeepSeek V4 (1M token context), Claude Opus 4.7. Vercel Flags (feature flags) now built into dashboard. Vercel CLI v52 available (texas-elections on v50 — 2 major versions behind). Security incident disclosed April 2026 — review bulletin at vercel.com/changelog.",
+      "breaking_changes": null,
+      "urls": [
+        "https://vercel.com/changelog",
+        "https://vercel.com/changelog/cve-2025-55182"
+      ]
+    }
+  ],
+  "summary": {
+    "urgent_count": 1,
+    "recommended_count": 4,
+    "fyi_count": 3,
+    "top_action": "Upgrade next to 16.2.4 across all repos immediately — CVE-2025-55182 (CVSS 10.0) is actively exploited. the-squeeze, Career-Portfolio, and orbit-dashboard are on Next.js 15.x and need both a major version upgrade and async API refactor.",
+    "breaking_change_alert": "Next.js 15→16 requires refactoring sync usage of cookies(), headers(), params, and searchParams to async/await. Plan this carefully — it is NOT a drop-in upgrade."
+  }
+}
