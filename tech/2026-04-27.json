@@ -1,0 +1,103 @@
+{
+  "date": "2026-04-27",
+  "stack": ["Next.js", "React 19", "TypeScript 5.x", "Tailwind CSS v4", "Vercel", "Node.js 22+", "Recharts 3", "Fuse.js", "lucide-react", "sherpa-onnx"],
+  "releases": [
+    {
+      "package": "Next.js",
+      "version": "16.2.4",
+      "category": "URGENT",
+      "released": "2026-04",
+      "summary": "Patches high-severity Denial of Service via Server Components (GHSA-q4gf-8mx6-v5v3, CVSS 7.5). All repos running Next.js 16.x below 16.2.3 are vulnerable. Also includes HTTP request smuggling fix (GHSA-ggv3-7p47-pfv8) and null-origin CSRF bypass patch.",
+      "breaking_changes": false,
+      "action": "UPGRADE NOW — run `npm install next@^16.2.4` in Career-Portfolio (^16.1.6), career-launchpad (16.1.6), cca-study (16.2.1), orbit-dashboard (16.2.1), texas-elections (^16.2.2). the-squeeze at ^15.5.0 needs `npm install next@^15.5.15` for the 15.x fix.",
+      "cve": "GHSA-q4gf-8mx6-v5v3",
+      "url": "https://nextjs.org/blog/next-16"
+    },
+    {
+      "package": "React",
+      "version": "19.2.5",
+      "category": "RECOMMENDED",
+      "released": "2026-04-08",
+      "summary": "19.2.5 is the current stable. React 19.2 introduced the Activity API (deferred/background rendering), the `useEffectEvent` hook (stable), and improvements to Server Components and hydration. No breaking changes from 19.1.",
+      "breaking_changes": false,
+      "action": "Update when convenient. No urgent security issues.",
+      "url": "https://react.dev/blog"
+    },
+    {
+      "package": "Tailwind CSS",
+      "version": "4.2.4",
+      "category": "RECOMMENDED",
+      "released": "2026-04-21",
+      "summary": "4.2.4 (Apr 21) fixes Vite alias resolution in @import and @plugin. 4.2.3 (Apr 20) adds canonicalization improvements for tracking-* utilities. New utilities added in 4.2.x: padding-block (pbs-*/pbe-*), margin-block (mbs-*/mbe-*), border-block, inline/block size utilities. Astro v5 support added.",
+      "breaking_changes": false,
+      "action": "Patch update — safe to apply with `npm update tailwindcss`.",
+      "url": "https://github.com/tailwindlabs/tailwindcss/releases"
+    },
+    {
+      "package": "lucide-react",
+      "version": "1.11.0",
+      "category": "RECOMMENDED",
+      "released": "2026-04-24",
+      "summary": "Minor release with new icons. Published 3 days ago.",
+      "breaking_changes": false,
+      "action": "Update at next dependency sweep.",
+      "url": "https://www.npmjs.com/package/lucide-react"
+    },
+    {
+      "package": "TypeScript",
+      "version": "5.8",
+      "category": "FYI",
+      "released": "2026-Q1",
+      "summary": "TypeScript 5.8 adds the `--erasableSyntaxOnly` flag (for Node.js type-stripping compatibility) and granular checking of return expressions in conditional branches. No breaking changes for existing code. 5.9 planned for July 2026 with `import defer` support.",
+      "breaking_changes": false,
+      "action": "No urgent action. Plan upgrade to 5.8 at next sprint.",
+      "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-8.html"
+    },
+    {
+      "package": "Node.js",
+      "version": "26 (Current) / 24 LTS",
+      "category": "FYI",
+      "released": "2026-04",
+      "summary": "Node.js 26 released April 2026 as the new Current branch. Node.js 24 remains the active LTS (until Oct 2027). Node.js 22 is moving from Active LTS to Maintenance LTS — still supported until April 2027 but no new features. Repos using Node 22+ are still fine.",
+      "breaking_changes": false,
+      "action": "No immediate action needed on Node 22. Track for Node 24 LTS migration over next 6 months.",
+      "url": "https://nodejs.org/en/about/previous-releases"
+    },
+    {
+      "package": "Vercel Platform",
+      "version": "changelog",
+      "category": "FYI",
+      "released": "2026-04",
+      "summary": "AI Gateway additions: GPT-5.5, DeepSeek V4 (1M token context), Claude Opus 4.7. Vercel Flags launched (feature flag provider built into Vercel Dashboard). Security incident bulletin published April 2026 — review at https://vercel.com/changelog if running sensitive workloads.",
+      "breaking_changes": false,
+      "action": "Review Vercel security incident bulletin. No code changes needed unless affected.",
+      "url": "https://vercel.com/changelog"
+    },
+    {
+      "package": "Recharts",
+      "version": "3.8.1",
+      "category": "FYI",
+      "released": "2026-03",
+      "summary": "Minor update, published ~1 month ago. No breaking changes noted.",
+      "breaking_changes": false,
+      "action": "No action needed.",
+      "url": "https://www.npmjs.com/package/recharts"
+    },
+    {
+      "package": "sherpa-onnx",
+      "version": "1.12.37",
+      "category": "FYI",
+      "released": "2026-04-17",
+      "summary": "Active release cadence — published 10 days ago. Patch release.",
+      "breaking_changes": false,
+      "action": "Update at next dependency sweep.",
+      "url": "https://www.npmjs.com/package/sherpa-onnx"
+    }
+  ],
+  "summary": {
+    "urgent_count": 1,
+    "recommended_count": 3,
+    "fyi_count": 5,
+    "top_action": "Upgrade Next.js to 16.2.4 across all 16.x repos (Career-Portfolio, career-launchpad, cca-study, orbit-dashboard, texas-elections) and to 15.5.15+ in the-squeeze. Patches CVSS 7.5 DoS via Server Components."
+  }
+}
