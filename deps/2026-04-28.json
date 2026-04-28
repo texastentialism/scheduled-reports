@@ -1,0 +1,301 @@
+{
+  "date": "2026-04-28",
+  "repos_scanned": 6,
+  "total_high": 32,
+  "total_critical": 0,
+  "total_moderate": 21,
+  "total_low": 1,
+  "repos": [
+    {
+      "repo": "texas-elections",
+      "path": "/home/user/texas-elections",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 22,
+        "moderate": 11,
+        "low": 1,
+        "total": 34
+      },
+      "high_critical_details": [
+        {
+          "package": "@vercel/backends",
+          "severity": "high",
+          "via": ["@vercel/build-utils", "path-to-regexp"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "@vercel/build-utils",
+          "severity": "high",
+          "via": ["@vercel/python-analysis"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "@vercel/cervel",
+          "severity": "high",
+          "via": ["@vercel/backends"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "@vercel/elysia",
+          "severity": "high",
+          "via": ["@vercel/node", "@vercel/static-config"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "@vercel/express",
+          "severity": "high",
+          "via": ["@vercel/cervel", "@vercel/node"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "@vercel/fastify",
+          "severity": "high",
+          "via": ["@vercel/node", "@vercel/static-config"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "@vercel/fun",
+          "severity": "high",
+          "via": ["@tootallnate/once", "path-to-regexp"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "@vercel/gatsby-plugin-vercel-builder",
+          "severity": "high",
+          "via": ["@vercel/build-utils"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "@vercel/h3",
+          "severity": "high",
+          "via": ["@vercel/node", "@vercel/static-config"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "@vercel/hono",
+          "severity": "high",
+          "via": ["@vercel/node", "@vercel/static-config"],
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        }
+      ],
+      "note": "22 high vulns — all in @vercel/* devDependencies (build tooling, not deployed app code). Root causes: path-to-regexp ReDoS and @vercel/python-analysis. All auto-fixable via npm audit fix.",
+      "key_outdated": {
+        "tailwindcss": {"current": "4.2.1", "latest": "4.2.4", "is_major": false},
+        "eslint-config-next": {"current": "16.2.2", "latest": "16.2.4", "is_major": false},
+        "lucide-react": {"current": "0.575.0", "latest": "1.11.0", "is_major": true},
+        "react": {"current": "19.2.3", "latest": "19.2.5", "is_major": false},
+        "recharts": {"current": "3.7.0", "latest": "3.8.1", "is_major": false},
+        "typescript": {"current": "5.9.3", "latest": "6.0.3", "is_major": true}
+      }
+    },
+    {
+      "repo": "career-launchpad",
+      "path": "/home/user/career-launchpad",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 4,
+        "moderate": 2,
+        "low": 0,
+        "total": 6
+      },
+      "high_critical_details": [
+        {
+          "package": "flatted",
+          "severity": "high",
+          "description": "Prototype Pollution via parse() in NodeJS flatted",
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "next",
+          "severity": "high",
+          "description": "Next.js HTTP request smuggling in rewrites; Next.js unbounded next/image disk cache growth can exhaust storage",
+          "fix_available": true,
+          "fix_version": "next@16.2.4",
+          "is_semver_major": false,
+          "fix_command": "npm install next@16.2.4"
+        },
+        {
+          "package": "picomatch",
+          "severity": "high",
+          "description": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "vite",
+          "severity": "high",
+          "description": "Vite vulnerable to Path Traversal in Optimized Deps .map Handling; Vite server.fs.deny bypassed with queries",
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        }
+      ]
+    },
+    {
+      "repo": "cca-study",
+      "path": "/home/user/cca-study",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 3,
+        "moderate": 4,
+        "low": 0,
+        "total": 7
+      },
+      "high_critical_details": [
+        {
+          "package": "next",
+          "severity": "high",
+          "description": "Next.js Denial of Service with Server Components; postcss vulnerability",
+          "fix_available": true,
+          "fix_version": "next@16.2.4",
+          "is_semver_major": false,
+          "fix_command": "npm install next@16.2.4"
+        },
+        {
+          "package": "path-to-regexp",
+          "severity": "high",
+          "description": "path-to-regexp vulnerable to Denial of Service via sequential optional groups and multiple wildcards (ReDoS)",
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        },
+        {
+          "package": "picomatch",
+          "severity": "high",
+          "description": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        }
+      ]
+    },
+    {
+      "repo": "Career-Portfolio",
+      "path": "/home/user/Career-Portfolio",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 1,
+        "moderate": 3,
+        "low": 0,
+        "total": 4
+      },
+      "high_critical_details": [
+        {
+          "package": "next",
+          "severity": "high",
+          "description": "Next.js vulnerability (DoS or request smuggling)",
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        }
+      ]
+    },
+    {
+      "repo": "the-squeeze",
+      "path": "/home/user/the-squeeze",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 1,
+        "moderate": 1,
+        "low": 0,
+        "total": 2
+      },
+      "high_critical_details": [
+        {
+          "package": "next",
+          "severity": "high",
+          "description": "Next.js Denial of Service with Server Components; postcss vulnerability",
+          "fix_available": true,
+          "fix_command": "npm audit fix"
+        }
+      ],
+      "key_outdated": {
+        "next": {"current": "15.5.14", "latest": "16.2.4", "is_major": true},
+        "eslint-config-next": {"current": "15.5.12", "latest": "16.2.4", "is_major": true},
+        "@vercel/analytics": {"current": "1.6.1", "latest": "2.0.1", "is_major": true},
+        "lucide-react": {"current": "0.460.0", "latest": "1.11.0", "is_major": true},
+        "tailwindcss": {"current": "3.4.19", "latest": "4.2.4", "is_major": true},
+        "typescript": {"current": "5.9.3", "latest": "6.0.3", "is_major": true},
+        "react": {"current": "19.2.4", "latest": "19.2.5", "is_major": false}
+      }
+    },
+    {
+      "repo": "orbit-dashboard",
+      "path": "/home/user/orbit-dashboard",
+      "vulnerabilities": {
+        "critical": 0,
+        "high": 1,
+        "moderate": 1,
+        "low": 0,
+        "total": 2
+      },
+      "high_critical_details": [
+        {
+          "package": "next",
+          "severity": "high",
+          "description": "Next.js HTTP request smuggling in rewrites; Next.js unbounded next/image disk cache growth can exhaust storage",
+          "fix_available": true,
+          "fix_version": "next@16.2.4",
+          "is_semver_major": false,
+          "fix_command": "npm install next@16.2.4"
+        }
+      ]
+    }
+  ],
+  "prioritized_fixes": [
+    {
+      "priority": 1,
+      "repo": "texas-elections",
+      "action": "npm audit fix",
+      "reason": "22 high vulnerabilities — highest count across all repos. Root: path-to-regexp ReDoS and @vercel/* build tools. All auto-fixable.",
+      "severity_trigger": "high"
+    },
+    {
+      "priority": 2,
+      "repo": "career-launchpad",
+      "action": "npm install next@16.2.4 && npm audit fix",
+      "reason": "4 high vulns including Next.js HTTP request smuggling, Vite path traversal, flatted prototype pollution, and picomatch method injection. Vite path traversal is particularly exploitable in dev environments.",
+      "severity_trigger": "high"
+    },
+    {
+      "priority": 3,
+      "repo": "cca-study",
+      "action": "npm install next@16.2.4 && npm audit fix",
+      "reason": "3 high vulns including Next.js DoS and path-to-regexp ReDoS.",
+      "severity_trigger": "high"
+    },
+    {
+      "priority": 4,
+      "repo": "Career-Portfolio",
+      "action": "npm audit fix",
+      "reason": "1 high vuln in Next.js. tylerwig.com is a public-facing site.",
+      "severity_trigger": "high"
+    },
+    {
+      "priority": 5,
+      "repo": "the-squeeze",
+      "action": "npm audit fix (short term); plan Next.js 15→16 major upgrade",
+      "reason": "1 high Next.js DoS vuln. Also significantly behind on major versions: still on Next.js 15, Tailwind v3, lucide-react 0.x.",
+      "severity_trigger": "high"
+    },
+    {
+      "priority": 6,
+      "repo": "orbit-dashboard",
+      "action": "npm install next@16.2.4",
+      "reason": "1 high vuln in Next.js — HTTP request smuggling fixable with targeted version bump.",
+      "severity_trigger": "high"
+    }
+  ],
+  "major_version_debt_summary": {
+    "the-squeeze": ["next (15→16)", "tailwindcss (3→4)", "lucide-react (0→1)", "typescript (5→6)", "@vercel/analytics (1→2)"],
+    "texas-elections": ["lucide-react (0→1)", "typescript (5→6)"],
+    "note": "the-squeeze carries the most major-version debt. Consider a dedicated upgrade sprint."
+  }
+}

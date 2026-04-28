@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-28",
+  "scan_window_days": 7,
+  "releases": [
+    {
+      "package": "lucide-react",
+      "version": "1.11.0",
+      "released": "2026-04-25",
+      "days_ago": 3,
+      "category": "RECOMMENDED",
+      "breaking": true,
+      "summary": "Major version jump from 0.x to 1.x. Released 3 days ago. Review for API changes before upgrading — both the-squeeze (on 0.460.0) and texas-elections (on 0.575.0) are multiple major versions behind.",
+      "url": "https://www.npmjs.com/package/lucide-react"
+    },
+    {
+      "package": "tailwindcss",
+      "version": "4.2.4",
+      "released": "2026-04-21",
+      "days_ago": 7,
+      "category": "FYI",
+      "breaking": false,
+      "summary": "Fixes Vite alias resolution in @import and @plugin. texas-elections is on 4.2.1 — minor patch upgrade recommended. the-squeeze is still on Tailwind v3 (3.4.19), a separate migration effort.",
+      "url": "https://github.com/tailwindlabs/tailwindcss/blob/main/CHANGELOG.md"
+    },
+    {
+      "package": "tailwindcss",
+      "version": "4.2.3",
+      "released": "2026-04-20",
+      "days_ago": 8,
+      "category": "FYI",
+      "breaking": false,
+      "summary": "Improves canonicalization for tracking-* utilities. Rolled into 4.2.4.",
+      "url": "https://github.com/tailwindlabs/tailwindcss/blob/main/CHANGELOG.md"
+    },
+    {
+      "package": "vercel-platform",
+      "version": "changelog-2026-04-27",
+      "released": "2026-04-27",
+      "days_ago": 1,
+      "category": "FYI",
+      "breaking": false,
+      "summary": "ALERT: Starting April 29 (tomorrow), Hobby plan max log retention capped at 30 days (excludes 10 most recent production deployments and aliased deployments). Pro/Enterprise not affected. Also: new Vercel Flags feature flag product, AI Gateway now has GPT-5.5, Claude Opus 4.7, Kimi K2.6, DeepSeek V4, GPT Image 2.",
+      "url": "https://community.vercel.com/t/vercel-weekly-2026-04-27/39179"
+    }
+  ],
+  "recent_notable": [
+    {
+      "package": "next",
+      "version": "16.2.4",
+      "released": "2026-04-15",
+      "days_ago": 13,
+      "category": "URGENT",
+      "breaking": false,
+      "summary": "Security release. Fixes CVE-2026-27979 (maxPostponedStateSize DoS via Server Components), CVE-2026-29057 (http-proxy vuln), streaming fetch hangs, and blocks privacy-sensitive dev websockets. All Next.js repos should upgrade. the-squeeze is on 15.x — a major version bump. texas-elections on 16.2.2 — minor bump available.",
+      "url": "https://nextjs.org/blog/next-16-1"
+    },
+    {
+      "package": "nodejs",
+      "version": "24.15.0",
+      "released": "2026-04-15",
+      "days_ago": 13,
+      "category": "RECOMMENDED",
+      "breaking": false,
+      "summary": "Node.js 24 is now LTS ('Krypton'). Key upgrades: npm v11 (65% faster installs), OpenSSL 3.5 (security level 2, RSA keys <2048 bits rejected), native TypeScript type-stripping promoted to stable, updated V8 with Float16Array and RegExp.escape(). Tyler's stack targets 22+ — 24 is now the preferred LTS.",
+      "url": "https://nodejs.org/en/blog/release/v22.20.0"
+    },
+    {
+      "package": "react",
+      "version": "19.2.5",
+      "released": "2026-04-08",
+      "days_ago": 20,
+      "category": "FYI",
+      "breaking": false,
+      "summary": "Patch release. the-squeeze on 19.2.4, texas-elections on 19.2.3 — minor patch bump available.",
+      "url": "https://react.dev/versions"
+    },
+    {
+      "package": "typescript",
+      "version": "6.0.3",
+      "released": "2026-03-17",
+      "days_ago": 42,
+      "category": "RECOMMENDED",
+      "breaking": true,
+      "summary": "Major version with significant breaking changes: ES5 target removed (minimum now ES2015), moduleResolution:classic removed, esModuleInterop/allowSyntheticDefaultImports now always-on, types[] defaults to [] (must explicitly list needed @types/* packages), downlevelIteration deprecated. Run npx @andrewbranch/ts5to6 migration tool. TypeScript 7.0 will be a native Go compiler port. All repos currently on 5.9.3.",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/"
+    }
+  ],
+  "summary": {
+    "urgent": [
+      {
+        "item": "Next.js 16.2.4",
+        "reason": "Security fixes CVE-2026-27979 (DoS) and CVE-2026-29057 (http-proxy). All 6 repos have high-severity Next.js vulns in npm audit — upgrade path is available."
+      }
+    ],
+    "recommended": [
+      "lucide-react 1.11.0 — major version jump from 0.x; review API changes",
+      "Node.js 24.15.0 LTS — now preferred LTS over 22; OpenSSL 3.5, npm v11",
+      "TypeScript 6.0.3 — major breaking changes; plan migration before 7.0 Go compiler port"
+    ],
+    "fyi": [
+      "Tailwind 4.2.4 — minor patch; texas-elections can bump in place",
+      "Vercel Hobby plan: log retention capped to 30 days starting April 29 (tomorrow)",
+      "React 19.2.5 — minor patch, low urgency"
+    ]
+  }
+}
