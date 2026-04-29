@@ -1,0 +1,125 @@
+{
+  "date": "2026-04-29",
+  "mode": "selective",
+  "search_posture_note": "Tyler recently landed Converge Commercialization Lead (Deloitte Converge Consumer). External search treated as paused/soft. Only genuinely exceptional roles surfaced — those that would credibly justify interrupting a brand-new internal product role at a $150M+/yr Deloitte internal product platform.",
+  "roles": [
+    {
+      "title": "Product Marketing Lead, Agents",
+      "company": "Anthropic",
+      "location": "San Francisco, CA (hybrid, ~25% in office)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5055669008",
+      "posted": "2025-12-19",
+      "stage": "Private / hypergrowth (~$380B valuation, $30B raised)",
+      "comp_hint": "$320K–$400K base/year (confirmed via Accel/General Catalyst boards)",
+      "role_fit": 5,
+      "industry_fit": 5,
+      "stage_fit": 4,
+      "location_fit": 3,
+      "link_status": "likely_active",
+      "link_status_note": "Confirmed active on Accel job board (Mar 6, 2026) and General Catalyst board (Jan 9, 2026). WebFetch blocked; direct verification not possible. Treat as likely open but verify before applying.",
+      "why_leave_converge": "Anthropic's Product Marketing Lead for Claude agents is a once-in-a-decade chance to define enterprise AI adoption at the world's most safety-focused frontier AI company — a scope no internal Deloitte platform can replicate.",
+      "why_fit": "Tyler is currently running commercialization and GTM strategy for Deloitte Converge's data & analytics product — directly mirroring this role's mandate to position and launch Claude.ai, Cowork, Claude Code, and Claude Enterprise as a coherent enterprise offering.",
+      "gaps_flags": [
+        "Requires SF-based hybrid (Tyler is in Austin — relocation or significant travel required)",
+        "Role posted Dec 2025; ~4+ months old — may be in late-stage interviews or filled; verify before investing time",
+        "No explicit 'product marketing manager' title on Tyler's resume — his equivalent work is framed as commercialization/GTM lead"
+      ]
+    },
+    {
+      "title": "Chief of Staff, Marketing",
+      "company": "Lovable",
+      "location": "San Francisco, CA (+ significant Stockholm travel)",
+      "url": "https://jobs.ashbyhq.com/lovable/1030f994-ee6b-4fca-b708-159582c6bafa",
+      "posted": "2026-04",
+      "stage": "Early-stage hypergrowth (AI app builder, rapidly scaling)",
+      "comp_hint": "Not disclosed — verify before engaging; comp uncertainty is a gating issue",
+      "role_fit": 4,
+      "industry_fit": 4,
+      "stage_fit": 4,
+      "location_fit": 2,
+      "link_status": "likely_active",
+      "link_status_note": "Listed on Menlo Ventures and ZipRecruiter as of April 2026. Ashby URL appears valid.",
+      "why_leave_converge": "Lovable is one of the fastest-growing AI companies redefining how software gets built; CoS to CMO would place Tyler inside a company whose product trajectory could reshape the developer market.",
+      "why_fit": "Role explicitly values consulting, strategy, and BizOps backgrounds (5–8+ years) over marketing-specific experience — Tyler's operator profile (CoS at scale, GTM systems, cross-functional execution at Deloitte Digital) maps directly to the stated requirements.",
+      "gaps_flags": [
+        "Comp not disclosed — could be below the $200K selective-mode threshold; do not engage without verifying",
+        "SF + frequent Stockholm travel is a significant ask for Austin-based Tyler",
+        "Role supports CMO, not CEO — lower leverage than a direct CoS-to-CEO role",
+        "Lovable is not on Tyler's named target company priority list (OpenAI, Anthropic, Perplexity, Figma, Linear, Oura, Substack, Airbnb)"
+      ]
+    }
+  ],
+  "roles_reviewed_but_excluded": [
+    {
+      "title": "Chief of Staff to the CRO",
+      "company": "OpenAI",
+      "reason_excluded": "Posted December 16, 2025; confirmed no longer accepting applications as of April 2026. Closed."
+    },
+    {
+      "title": "Head of Integrated Marketing, Claude",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5171624008",
+      "comp": "$400K–$570K",
+      "reason_excluded": "Requires 15+ years of marketing experience with 5+ years leading marketing teams (brand, growth, organic channels). Tyler's background is strategy/operator/GTM — not deep marketing team leadership. Gap is material."
+    },
+    {
+      "title": "GTM Strategy & Operations, Enterprise Business Partner",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5139423008",
+      "reason_excluded": "Role explicitly requires background in high-growth B2B SaaS enterprise sales and scaling sales orgs through 3x+ growth periods. Tyler is a consulting/strategy operator, not a sales-org insider. Friction point is real."
+    },
+    {
+      "title": "Strategy & Operations, Public Policy & Public Benefit",
+      "company": "Anthropic",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5172396008",
+      "reason_excluded": "Public Policy focus limits fit; Tyler's strengths are commercial GTM and product strategy, not policy/regulatory. Below selective threshold."
+    }
+  ],
+  "market_signals": [
+    {
+      "type": "funding",
+      "company": "Anthropic",
+      "summary": "Investors offering a preemptive round at $800B+ valuation as of April 15 — Anthropic is reportedly declining for now, having already closed a $30B raise at $380B. This signals massive external appetite for Anthropic equity and confirms aggressive hiring runway. More senior commercialization and GTM hires are a near certainty.",
+      "date": "2026-04-15",
+      "url": "https://techcrunch.com/2026/04/15/anthropic-shrugs-off-vc-funding-offers-valuing-it-at-800b-for-now/"
+    },
+    {
+      "type": "exec",
+      "company": "Anthropic / Figma",
+      "summary": "Anthropic CPO Mike Krieger resigned from Figma's board on April 14, amid reports that Anthropic's upcoming Opus 4.7 model will include built-in design features ('Claude Design' — can generate presentations, websites, brand videos, landing pages, and apps from a single prompt). Anthropic is entering the design tools market directly, expanding its product surface area dramatically. This competitive move may open new S&O and commercialization roles as the company launches a new product category.",
+      "date": "2026-04-14",
+      "url": "https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/"
+    },
+    {
+      "type": "funding",
+      "company": "OpenAI",
+      "summary": "OpenAI closed a $122B round on March 31 at $852B post-money valuation — one of the four largest VC rounds ever recorded in a single quarter. An active AI talent war is underway: executives from Salesforce, Snowflake, and Datadog have been poached by OpenAI and Anthropic. Chief of Staff and S&O roles at OpenAI are being created to support hyper-growth GTM motion.",
+      "date": "2026-03-31",
+      "url": "https://fortune.com/2026/04/07/openai-drama-sam-altman-ipo-anthropic-cybersecurity-risks-eye-on-ai/"
+    },
+    {
+      "type": "launch",
+      "company": "OpenAI",
+      "summary": "OpenAI shipped a major Codex update in April 2026, reportedly displacing Claude Code as the leading autonomous coding agent. This signals an accelerating competitive dynamic in AI developer tools — the category Tyler's Converge work (and Anthropic's Claude Code product) sits directly adjacent to.",
+      "date": "2026-04-01",
+      "url": "https://imfounder.com/science-tech/ai/ai-updates-april-2026-openai-codex-claude-design/"
+    }
+  ],
+  "summary": {
+    "total_roles": 2,
+    "top_picks": [
+      {
+        "title": "Product Marketing Lead, Agents",
+        "company": "Anthropic",
+        "rationale": "The single strongest match in selective mode: Tyler is doing the exact analog work at Deloitte Converge right now (commercializing an internal AI product for enterprise), and Anthropic's Claude agents are the most consequential version of that problem at global scale. Comp at $320–400K clears the bar. Main risk is the role's age (~4 months posted) and SF relocation."
+      },
+      {
+        "title": "Chief of Staff, Marketing",
+        "company": "Lovable",
+        "rationale": "Role description reads like Tyler's profile — 5–8+ years strategy/consulting/ops, BizOps CoS experience preferred, marketing domain knowledge not required. Comp is undisclosed and may not clear $200K; SF + Stockholm travel is a real friction point. Worth a quick comp check but don't invest heavily until compensation is verified."
+      }
+    ],
+    "market_temp": "hot",
+    "note": "The AI funding cycle is at historic highs (OpenAI $852B, Anthropic $380B+). Both companies are expanding product surface area aggressively — Anthropic into design tools, OpenAI into agentic coding. This creates new senior hiring in commercialization, GTM, and operator roles that don't exist yet. The most strategic move for Tyler right now may be building signal at Anthropic (via content, network, or direct conversation) rather than applying cold to a 4-month-old posting. Converge credibility as an internal AI product operator is a differentiated asset in the current market."
+  }
+}
