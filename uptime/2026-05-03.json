@@ -1,0 +1,92 @@
+{
+  "date": "2026-05-03",
+  "total_sites": 8,
+  "up": 0,
+  "down": 0,
+  "check_failed": 8,
+  "ssl_warnings": 8,
+  "alerts_triggered": true,
+  "notes": "All 8 sites returned HTTP 403 from WebFetch — consistent with WAF/bot-protection (Cloudflare et al.) blocking the fetch agent rather than a true outage. All SSL certificates expire 2026-06-02 (29 days), crossing the <30-day warning threshold.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-02",
+      "ssl_days_remaining": 29,
+      "error": "Request failed with status code 403 — likely bot/WAF protection",
+      "checked_at": "2026-05-03T12:34:11Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-02",
+      "ssl_days_remaining": 29,
+      "error": "Request failed with status code 403 — likely bot/WAF protection",
+      "checked_at": "2026-05-03T12:34:11Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-02",
+      "ssl_days_remaining": 29,
+      "error": "Request failed with status code 403 — likely bot/WAF protection",
+      "checked_at": "2026-05-03T12:34:11Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-02",
+      "ssl_days_remaining": 29,
+      "error": "Request failed with status code 403 — likely bot/WAF protection",
+      "checked_at": "2026-05-03T12:34:11Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-02",
+      "ssl_days_remaining": 29,
+      "error": "Request failed with status code 403 — likely bot/WAF protection",
+      "checked_at": "2026-05-03T12:34:11Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-02",
+      "ssl_days_remaining": 29,
+      "error": "Request failed with status code 403 — likely bot/WAF protection",
+      "checked_at": "2026-05-03T12:34:11Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-02",
+      "ssl_days_remaining": 29,
+      "error": "Request failed with status code 403 — likely bot/WAF protection",
+      "checked_at": "2026-05-03T12:34:11Z"
+    },
+    {
+      "url": "https://converge-refresh.vercel.app",
+      "name": "Converge Refresh",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-02",
+      "ssl_days_remaining": 29,
+      "error": "Request failed with status code 403 — likely bot/WAF protection",
+      "checked_at": "2026-05-03T12:34:11Z"
+    }
+  ]
+}
