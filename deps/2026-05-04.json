@@ -1,0 +1,149 @@
+{
+  "date": "2026-05-04",
+  "repos_scanned": 6,
+  "total_high_critical_vulns": 28,
+  "repos": [
+    {
+      "repo": "the-squeeze",
+      "audit_summary": {"critical": 0, "high": 1, "moderate": 1, "low": 0, "info": 0},
+      "high_critical": [
+        {
+          "pkg": "next",
+          "severity": "high",
+          "title": "Next.js Denial of Service via crafted App Router request (CVE-2026-23869)",
+          "fix_available": true,
+          "fix_version": "npm audit fix"
+        }
+      ],
+      "key_outdated": {
+        "next": {"current": "15.5.14", "wanted": "15.5.15", "latest": "16.2.4", "gap": "major"},
+        "react": {"current": "19.2.4", "wanted": "19.2.5", "latest": "19.2.5", "gap": "patch"},
+        "typescript": {"current": "5.9.3", "wanted": "5.9.3", "latest": "6.0.3", "gap": "major"},
+        "tailwindcss": {"current": "3.4.19", "wanted": "3.4.19", "latest": "4.2.4", "gap": "major"},
+        "lucide-react": {"current": "0.460.0", "wanted": "0.460.0", "latest": "1.14.0", "gap": "major"},
+        "fuse.js": {"current": "7.1.0", "wanted": "7.3.0", "latest": "7.3.0", "gap": "minor"},
+        "@types/node": {"current": "20.19.33", "wanted": "20.19.39", "latest": "25.6.0", "gap": "major"}
+      }
+    },
+    {
+      "repo": "texas-elections",
+      "audit_summary": {"critical": 0, "high": 22, "moderate": 11, "low": 1, "info": 0},
+      "high_critical": [
+        {"pkg": "vercel (cascade)", "severity": "high", "title": "vercel dev dependency cascade — path-to-regexp (ReDoS), tar (arbitrary file read/write via hardlink), undici (insufficient randomness), minimatch (ReDoS), @vercel/build-utils (@vercel/python-analysis chain), @vercel/node (multiple)", "fix_available": true, "fix_version": "npm audit fix --force (breaking changes)"},
+        {"pkg": "path-to-regexp", "severity": "high", "title": "path-to-regexp Method Injection / ReDoS", "fix_available": true, "fix_version": "npm audit fix --force"},
+        {"pkg": "tar", "severity": "high", "title": "Arbitrary File Read/Write via hardlink attack", "fix_available": true, "fix_version": "npm audit fix --force"},
+        {"pkg": "undici", "severity": "high", "title": "Use of Insufficiently Random Values", "fix_available": true, "fix_version": "npm audit fix --force"},
+        {"pkg": "minimatch", "severity": "high", "title": "minimatch ReDoS", "fix_available": true, "fix_version": "npm audit fix --force"}
+      ],
+      "note": "22 high vulns are dominated by the vercel CLI dev dependency and its transitive chain. Run npm audit fix --force to update; expect breaking changes to vercel CLI version. Prioritize path-to-regexp and tar as highest actual risk."
+    },
+    {
+      "repo": "Career-Portfolio",
+      "audit_summary": {"critical": 0, "high": 1, "moderate": 3, "low": 0, "info": 0},
+      "high_critical": [
+        {
+          "pkg": "next",
+          "severity": "high",
+          "title": "Next.js Denial of Service via crafted App Router request (CVE-2026-23869)",
+          "fix_available": true,
+          "fix_version": "npm audit fix"
+        }
+      ]
+    },
+    {
+      "repo": "career-launchpad",
+      "audit_summary": {"critical": 0, "high": 4, "moderate": 2, "low": 0, "info": 0},
+      "high_critical": [
+        {"pkg": "next", "severity": "high", "title": "Next.js HTTP Request Smuggling", "fix_available": true, "fix_version": "next@16.2.4"},
+        {"pkg": "flatted", "severity": "high", "title": "Prototype Pollution via parse()", "fix_available": true, "fix_version": "npm audit fix --force"},
+        {"pkg": "picomatch", "severity": "high", "title": "picomatch Method Injection", "fix_available": true, "fix_version": "npm audit fix --force"},
+        {"pkg": "vite", "severity": "high", "title": "Vite Path Traversal vulnerability", "fix_available": true, "fix_version": "npm audit fix --force"}
+      ]
+    },
+    {
+      "repo": "cca-study",
+      "audit_summary": {"critical": 0, "high": 3, "moderate": 4, "low": 0, "info": 0},
+      "high_critical": [
+        {"pkg": "next", "severity": "high", "title": "Next.js Denial of Service via crafted App Router request (CVE-2026-23869)", "fix_available": true, "fix_version": "next@16.2.4"},
+        {"pkg": "path-to-regexp", "severity": "high", "title": "path-to-regexp Method Injection / ReDoS", "fix_available": true, "fix_version": "npm audit fix --force"},
+        {"pkg": "picomatch", "severity": "high", "title": "picomatch Method Injection", "fix_available": true, "fix_version": "npm audit fix --force"}
+      ]
+    },
+    {
+      "repo": "orbit-dashboard",
+      "audit_summary": {"critical": 0, "high": 1, "moderate": 1, "low": 0, "info": 0},
+      "high_critical": [
+        {
+          "pkg": "next",
+          "severity": "high",
+          "title": "Next.js HTTP Request Smuggling",
+          "fix_available": true,
+          "fix_version": "next@16.2.4"
+        }
+      ]
+    }
+  ],
+  "prioritized_fixes": [
+    {
+      "priority": 1,
+      "severity": "HIGH",
+      "label": "URGENT — Next.js security vulns (DoS + HTTP smuggling)",
+      "repos": ["the-squeeze", "Career-Portfolio", "career-launchpad", "cca-study", "orbit-dashboard"],
+      "action": "cd <repo> && npm audit fix (or bump next to ^16.2.4 in package.json)",
+      "details": "CVE-2026-23869: App Router Server Function DoS. HTTP request smuggling separate advisory. Fix: next@16.2.4. Note: Next.js 16 has breaking changes from 15.x — audit async Request API usage before force-upgrading.",
+      "auto_fixable": "Partial — npm audit fix handles patch; major bump to 16.x may require manual migration (async cookies/headers/params)"
+    },
+    {
+      "priority": 2,
+      "severity": "HIGH",
+      "label": "Vite Path Traversal — career-launchpad",
+      "repos": ["career-launchpad"],
+      "action": "cd career-launchpad && npm audit fix --force",
+      "details": "Vite path traversal allows reading arbitrary files outside the project root via specially crafted URLs. Dev-only risk but worth patching.",
+      "auto_fixable": true
+    },
+    {
+      "priority": 3,
+      "severity": "HIGH",
+      "label": "tar Arbitrary File Read/Write — texas-elections",
+      "repos": ["texas-elections"],
+      "action": "cd texas-elections && npm audit fix --force",
+      "details": "tar package allows arbitrary file read/write via hardlink attack. Part of vercel CLI dependency cascade.",
+      "auto_fixable": true
+    },
+    {
+      "priority": 4,
+      "severity": "HIGH",
+      "label": "flatted Prototype Pollution — career-launchpad",
+      "repos": ["career-launchpad"],
+      "action": "cd career-launchpad && npm audit fix --force",
+      "details": "flatted parse() vulnerable to prototype pollution. Risk depends on whether untrusted input passes through flatted.",
+      "auto_fixable": true
+    },
+    {
+      "priority": 5,
+      "severity": "HIGH",
+      "label": "path-to-regexp + picomatch Method Injection/ReDoS — texas-elections, cca-study, career-launchpad",
+      "repos": ["texas-elections", "cca-study", "career-launchpad"],
+      "action": "npm audit fix --force in each affected repo",
+      "details": "path-to-regexp and picomatch both have method injection / ReDoS issues. Low exploitability in typical usage but should be patched.",
+      "auto_fixable": true
+    },
+    {
+      "priority": 6,
+      "severity": "HIGH",
+      "label": "vercel CLI cascade (22 high vulns) — texas-elections",
+      "repos": ["texas-elections"],
+      "action": "cd texas-elections && npm audit fix --force — or consider whether vercel CLI is needed as a project dep vs global install",
+      "details": "The vercel package installed as a project dependency brings in a large transitive dep tree with multiple known vulns. Consider moving to a global vercel CLI install and removing from project package.json.",
+      "auto_fixable": "Partial — --force required; breaking vercel CLI version bump"
+    }
+  ],
+  "summary": {
+    "critical_count": 0,
+    "high_count": 28,
+    "most_urgent": "Next.js CVE-2026-23869 (DoS) + HTTP smuggling — affects 5 of 6 repos, fix available at next@16.2.4",
+    "second_priority": "texas-elections vercel CLI cascade (22 high) — path-to-regexp, tar, undici, minimatch",
+    "note": "No critical severity vulns found. All high-severity vulns have fixes available. The 28 high count is inflated by texas-elections' vercel CLI cascade (22 of 28). True unique exploitable vulns are ~6-8."
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "date": "2026-05-04",
+  "stack": ["Next.js 15/16", "React 19", "TypeScript 5.x", "Tailwind CSS v4", "Vercel platform", "Node.js 22+", "Recharts 3", "Fuse.js", "lucide-react"],
+  "releases": [
+    {
+      "package": "next",
+      "category": "URGENT",
+      "current_on_stack": "15.5.14",
+      "new_version": "16.2.4",
+      "release_date": "2026-03-18",
+      "type": "major",
+      "summary": "Next.js 16.2 — ~400% faster `next dev` startup, ~50% faster rendering, Turbopack Server Fast Refresh + SRI support, AGENTS.md scaffolding in create-next-app, browser log forwarding. Patch 16.2.4 fixes active security vulns (DoS, HTTP request smuggling — see CVE-2026-23869 in security section).",
+      "breaking_changes": [
+        "Synchronous access to async Request APIs (cookies, headers, params, searchParams) fully removed — must be awaited",
+        "revalidateTag() now requires a second argument specifying a cacheLife profile",
+        "images.qualities default changed from all qualities to [75] only"
+      ],
+      "upgrade_guide": "https://nextjs.org/docs/app/guides/upgrading/version-16",
+      "action": "UPGRADE — active high-severity vulns in current 15.x versions; fix available at 16.2.4"
+    },
+    {
+      "package": "typescript",
+      "category": "RECOMMENDED",
+      "current_on_stack": "5.9.3",
+      "new_version": "6.0.3",
+      "release_date": "2026-03-17",
+      "type": "major",
+      "summary": "TypeScript 6.0 — stabilizes TC39 Decorator Metadata proposal, adds `strictInference` compiler flag (stricter type inference for generic functions), meaningful build performance gains for large projects, refined conditional type narrowing. This is a major version jump from Tyler's current 5.x stack.",
+      "breaking_changes": [
+        "strictInference off by default but may surface latent type errors if enabled",
+        "Some edge-case conditional type narrowing behavior changed",
+        "TypeScript 5.x migration guide: https://github.com/privatenumber/3d2e80da28f84ee30b77d53e1693378f"
+      ],
+      "action": "PLAN — evaluate migration from 5.9.3 → 6.0.3; no security urgency but major version means breaking edge cases"
+    },
+    {
+      "package": "node",
+      "category": "RECOMMENDED",
+      "current_on_stack": "22+",
+      "new_version": "24.15.0 LTS",
+      "release_date": "2026-04-01",
+      "type": "major",
+      "summary": "Node.js 24 entered LTS in October 2025 and is now the recommended production runtime. Node.js 22 has transitioned from Active support to Maintenance-only as of April 2026 (maintenance until April 2027). Node.js 24 includes npm v11 (65% faster installs) and V8 engine improvements.",
+      "breaking_changes": [],
+      "action": "PLAN — Node.js 22 still supported (maintenance through Apr 2027) but 24 is now preferred LTS; worth scheduling upgrade"
+    },
+    {
+      "package": "tailwindcss",
+      "category": "FYI",
+      "current_on_stack": "3.4.19 (the-squeeze); v4.x others",
+      "new_version": "4.2.4",
+      "release_date": "2026-04-21",
+      "type": "patch",
+      "summary": "Tailwind CSS v4.2.4 — patches `@import` and `@plugin` resolution when using Vite aliases. v4.1 (April) added interactive experience improvements. the-squeeze is still on v3.4.19 — major version gap.",
+      "breaking_changes": [],
+      "action": "FYI — patch for v4 users; the-squeeze is on v3 (two major versions behind) — v3→v4 is a significant config rewrite"
+    },
+    {
+      "package": "recharts",
+      "category": "FYI",
+      "current_on_stack": "3.x",
+      "new_version": "3.8.1",
+      "release_date": "2026-03-25",
+      "type": "minor",
+      "summary": "Recharts 3.8.1 — shape prop added to Line and Pie charts, stacked bar chart + Brush bug fixes, Area event handler fixes, performance improvements (SetTooltipEntrySettings optimization). No breaking changes.",
+      "breaking_changes": [],
+      "action": "FYI — straightforward patch/minor updates; safe to upgrade"
+    },
+    {
+      "package": "react",
+      "category": "FYI",
+      "current_on_stack": "19.2.4",
+      "new_version": "19.2.5",
+      "release_date": "2026-04-28",
+      "type": "patch",
+      "summary": "React 19.2.5 — patch release, bug fixes only. No new features or breaking changes.",
+      "breaking_changes": [],
+      "action": "FYI — safe patch update"
+    },
+    {
+      "package": "lucide-react",
+      "category": "FYI",
+      "current_on_stack": "0.460.0 (the-squeeze)",
+      "new_version": "1.14.0",
+      "release_date": "2026-04-01",
+      "type": "major",
+      "summary": "lucide-react 1.0 was a major version release — icon naming conventions changed, tree-shaking improvements, some icons renamed or removed. Current install is 0.460.0 which is two major versions behind.",
+      "breaking_changes": [
+        "Some icon names changed in 1.x — verify icon imports before upgrading"
+      ],
+      "action": "FYI — major version gap; check icon name compatibility before upgrading"
+    }
+  ],
+  "security": [
+    {
+      "id": "CVE-2026-23869",
+      "severity": "URGENT",
+      "package": "next",
+      "affected_versions": "<16.2.4",
+      "title": "Next.js React Server Components — Denial of Service via crafted HTTP request",
+      "summary": "A specially crafted HTTP request sent to any App Router Server Function endpoint can trigger excessive CPU usage when deserialized, causing DoS. Affects any Next.js app using App Router with Server Functions/Actions.",
+      "fix": "Upgrade next to 16.2.4+",
+      "auto_fixable": true,
+      "repos_affected": ["the-squeeze", "Career-Portfolio", "cca-study"],
+      "url": "https://vercel.com/changelog/summary-of-cve-2026-23869"
+    },
+    {
+      "id": "Vercel-April-2026-Incident",
+      "severity": "URGENT",
+      "package": "vercel-platform",
+      "title": "Vercel April 2026 Security Incident — OAuth supply chain attack via Context.ai",
+      "summary": "In April 2026, attackers compromised a Context.ai employee (Lumma Stealer infostealer), pivoted to a Vercel employee's Google Workspace account, then accessed Vercel's internal environment. Non-sensitive environment variables (those that decrypt to plaintext) were enumerated and potentially exfiltrated. Vercel, GitHub, Microsoft, npm, and Socket confirmed no npm packages were tampered. Vercel is working with Google Mandiant and law enforcement.",
+      "action_required": "Audit Vercel project environment variables — rotate any API keys, tokens, or secrets stored as non-secret (plaintext) env vars on Vercel. Check Vercel security bulletin for whether your account was in the affected subset.",
+      "vercel_bulletin": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
+      "npm_packages_safe": true
+    }
+  ],
+  "platform_changes": [
+    {
+      "platform": "Vercel",
+      "date": "2026-05-01",
+      "title": "Vercel Sandbox — hosted Postgres database connectivity",
+      "summary": "Vercel Sandbox can now connect to hosted Postgres databases including Neon, Supabase, AWS RDS, Nile, and Prisma Postgres. The Sandbox firewall handles Postgres TLS negotiation. Tag support added for separating staging/production and attributing usage to teams.",
+      "relevance": "FYI — useful for future Converge/internal data projects"
+    }
+  ],
+  "major_version_gaps_on_stack": [
+    {"package": "typescript", "current": "5.9.3", "latest": "6.0.3", "gap": "major"},
+    {"package": "next", "current": "15.5.14", "latest": "16.2.4", "gap": "major"},
+    {"package": "tailwindcss", "current": "3.4.19 (the-squeeze)", "latest": "4.2.4", "gap": "major"},
+    {"package": "lucide-react", "current": "0.460.0", "latest": "1.14.0", "gap": "major"},
+    {"package": "@types/node", "current": "20.19.33", "latest": "25.6.0", "gap": "major"}
+  ],
+  "summary": {
+    "urgent_count": 2,
+    "recommended_count": 2,
+    "fyi_count": 4,
+    "top_action": "Upgrade next to 16.2.4+ across all repos immediately (CVE-2026-23869 DoS + HTTP smuggling). Separately, rotate Vercel environment variable secrets in response to the April 2026 platform breach."
+  }
+}
