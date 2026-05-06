@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-06",
+  "mode": "selective",
+  "search_posture_note": "Tyler is now 6–8 weeks into the Converge Commercialization Lead role at Deloitte Converge Consumer (permanent, I&T product function, ~$150M/yr platform). External search treated as paused/soft. Only roles posted within the last 7 days AND meeting all selective-mode criteria are surfaced. Default expectation is 0–3 roles. Empty list is fine and expected.",
+  "roles": [],
+  "roles_reviewed_but_excluded": [
+    {
+      "title": "Chief of Staff, ChatGPT",
+      "company": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/ec4e3a06-81da-4d80-92b6-e55ca6107afb",
+      "reason_excluded": "Posted October 2025 — outside the 7-day recency filter. Role may still be open (appeared in multiple active job boards as of May 2026). Substantively strong: reports to Nick Turley (Head of ChatGPT), SF hybrid, 7+ years product strategy/ops/consulting required. Comp not publicly disclosed but OpenAI ranges typically clear $300K+. Worth monitoring — if reposted or verified active, re-evaluate against selective criteria.",
+      "would_qualify_if_fresh": true
+    },
+    {
+      "title": "Chief of Staff to CEO",
+      "company": "Replit",
+      "url": "https://jobs.ashbyhq.com/replit/95332816-5890-4fac-b5fc-4b0cea0d77db",
+      "reason_excluded": "Posted April 9, 2026 — 27 days ago, outside 7-day filter. Comp: $240K–$290K. Location: Foster City, CA (hybrid). Works directly with Amjad Masad (CEO). IC-not-management framing: 'scale yourself through AI and sharp judgment, not headcount.' Replit $9B valuation post-Series D. Strong role substantively but location (Bay Area in-office) and posting age exclude it.",
+      "would_qualify_if_fresh": true
+    },
+    {
+      "title": "VP of Product Marketing",
+      "company": "Replit",
+      "url": "https://jobs.ashbyhq.com/replit/7ff74387-ff7f-4bd7-9e23-a09177f8e2a6",
+      "reason_excluded": "Posting date unconfirmed — cannot verify within 7-day window. Requires 15+ years marketing experience with 7+ years leading PMM teams at B2B tech companies. Experience bar is above Tyler's profile (he is a commercialization/GTM operator, not a career PMM team leader). Location: Foster City, CA in-office Mon/Wed/Fri. Excluded on both age uncertainty and experience gap.",
+      "would_qualify_if_fresh": false
+    },
+    {
+      "title": "Strategy & Operations Lead",
+      "company": "Sierra",
+      "url": "https://jobs.ashbyhq.com/Sierra/fef64ea0-390e-4648-8086-744bb30c740f",
+      "reason_excluded": "Posting date unconfirmed — cannot verify within 7-day window. Comp: $180K–$230K (floor is below $200K selective-mode minimum). Location: San Francisco (requires relocation from Austin). Role level is 'Lead' not 'Head of / VP' — below selective-mode seniority target. Sierra just raised $950M (May 4) and will likely post more senior GTM/commercialization roles in coming weeks — watch for Director/VP-level S&O or Head of Commercialization in 30-day window.",
+      "would_qualify_if_fresh": false
+    }
+  ],
+  "market_signals": [
+    {
+      "type": "funding",
+      "company": "Sierra",
+      "summary": "Sierra raised $950M Series E at $15.8B valuation (led by Tiger Global and GV, with Benchmark, Sequoia, Greenoaks). The company hit $150M ARR in 8 quarters — 'unprecedented in traditional software' per Bret Taylor. Serves nearly half the Fortune 50. Post-raise, Sierra will invest aggressively to maintain lead in enterprise AI agents. Current open roles include S&O Lead and GTM Operations & Revenue Strategy Lead — but more senior GTM/commercialization hiring (Director/VP) is the expected next wave. Tyler's Converge Commercialization experience (internal AI product for enterprise Consumer clients) maps directly to Sierra's customer-facing operator profile.",
+      "date": "2026-05-04",
+      "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+    },
+    {
+      "type": "exec",
+      "company": "OpenAI",
+      "summary": "OpenAI's marketing and product leadership has undergone significant turnover since April 2026: CMO Kate Rouch stepped down (cancer recovery), VP of Science Kevin Weil departed, CTO of B2B Applications Srinivas Narayanan left, Bill Peebles (Sora lead) exited, Fidji Simo (product/business chief) is on medical leave, and Brad Lightcap (COO) transitioned to 'special projects.' This is the most significant leadership reset at OpenAI since its founding. The CMO vacancy in particular is an open senior marketing seat at the world's highest-profile AI company. Tyler's Converge commercialization work + Wharton background makes him a credible long-range candidate for senior marketing/commercialization leadership once a new CMO is installed.",
+      "date": "2026-04-17",
+      "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/"
+    },
+    {
+      "type": "exec",
+      "company": "OpenAI",
+      "summary": "OpenAI CMO Kate Rouch formally stepped down in April 2026 to focus on cancer recovery. Marketing leadership is being handled by internal transitional executives. A new permanent CMO search is expected. This is the most consequential open marketing seat in the AI industry right now.",
+      "date": "2026-04",
+      "url": "https://adage.com/executive-moves/aa-openai-cmo-kate-rouch-exits/"
+    },
+    {
+      "type": "funding",
+      "company": "Replit",
+      "summary": "Replit closed a $400M Series D at $9B valuation earlier this year, targeting $1B ARR by end of 2026. The company is hiring aggressively: Chief of Staff to CEO ($240–290K, posted April 9) and VP of Product Marketing are both open. Replit sits at the center of the AI coding shift — natural language to working software. CoS role is still likely active despite being 27 days old.",
+      "date": "2026-Q1",
+      "url": "https://jobs.ashbyhq.com/replit/95332816-5890-4fac-b5fc-4b0cea0d77db"
+    },
+    {
+      "type": "launch",
+      "company": "Perplexity",
+      "summary": "Perplexity transitioned to a subscription-first model in February 2026 (discontinued AI-integrated advertising), citing user trust preservation. The company reached $22.6B valuation as of January 2026 with 1,472 employees. The subscription pivot signals a maturation from growth-at-all-costs to sustainable GTM — a phase that often creates demand for seasoned commercialization and product marketing operators. No senior GTM openings identified this week but Perplexity remains a top-tier market signal to watch.",
+      "date": "2026-02",
+      "url": "https://pitchbook.com/profiles/company/517947-04"
+    }
+  ],
+  "summary": {
+    "total_roles": 0,
+    "top_picks": [],
+    "market_temp": "hot",
+    "note": "No confirmed roles posted within the last 7 days clear the selective-mode bar this week. The two highest-signal events for Tyler's career trajectory are: (1) Sierra's $950M Series E close on May 4 — watch their careers page weekly for Director/VP-level S&O or Commercialization postings in the next 30 days as they accelerate GTM scaling; (2) OpenAI's CMO vacancy — a new permanent CMO hire at OpenAI will likely bring in or create VP-level product marketing and commercialization roles beneath them. Tyler's Converge Product Marketing and Commercialization Lead title is a credible credential for these conversations. The market signal score this week is higher than the role-match score."
+  }
+}

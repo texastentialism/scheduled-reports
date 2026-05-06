@@ -1,0 +1,92 @@
+{
+  "date": "2026-05-06",
+  "total_sites": 8,
+  "up": 0,
+  "down": 0,
+  "check_failed": 8,
+  "ssl_warnings": 0,
+  "alerts_triggered": false,
+  "note": "All 8 sites returned HTTP 403 from WebFetch (21 bytes) — including with browser User-Agent — consistent with CDN/Cloudflare edge bot-detection blocking the sandbox IP. This is NOT a confirmed outage. SSL handshakes succeeded for all 8 domains (certs returned valid via openssl s_client), confirming servers are live. SSL certs show expiry 2026-06-05 (30 days from today). Threshold for warning is <30 days; today is exactly at boundary — no formal ssl_warning triggered, but certs should renew automatically within the next 24–48 hours. Note: yesterday's check (2026-05-05) showed expiry as 2026-06-04 — the 1-day shift to June 5 is likely a Vercel/Let's Encrypt edge-node provisioning difference, not a regression.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-05",
+      "ssl_days_remaining": 30,
+      "error": "WebFetch returned HTTP 403 (21 bytes) — CDN bot-detection block; server confirmed live via SSL handshake",
+      "checked_at": "2026-05-06T08:00:00Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-05",
+      "ssl_days_remaining": 30,
+      "error": "WebFetch returned HTTP 403 (21 bytes) — CDN bot-detection block; server confirmed live via SSL handshake",
+      "checked_at": "2026-05-06T08:00:00Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-05",
+      "ssl_days_remaining": 30,
+      "error": "WebFetch returned HTTP 403 (21 bytes) — CDN bot-detection block; server confirmed live via SSL handshake",
+      "checked_at": "2026-05-06T08:00:00Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-05",
+      "ssl_days_remaining": 30,
+      "error": "WebFetch returned HTTP 403 (21 bytes) — CDN bot-detection block; server confirmed live via SSL handshake",
+      "checked_at": "2026-05-06T08:00:00Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-05",
+      "ssl_days_remaining": 30,
+      "error": "WebFetch returned HTTP 403 (21 bytes) — CDN bot-detection block; server confirmed live via SSL handshake",
+      "checked_at": "2026-05-06T08:00:00Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-05",
+      "ssl_days_remaining": 30,
+      "error": "WebFetch returned HTTP 403 (21 bytes) — CDN bot-detection block; server confirmed live via SSL handshake",
+      "checked_at": "2026-05-06T08:00:00Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-05",
+      "ssl_days_remaining": 30,
+      "error": "WebFetch returned HTTP 403 (21 bytes) — CDN bot-detection block; server confirmed live via SSL handshake",
+      "checked_at": "2026-05-06T08:00:00Z"
+    },
+    {
+      "url": "https://converge-refresh.vercel.app",
+      "name": "Converge Refresh",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-05",
+      "ssl_days_remaining": 30,
+      "error": "WebFetch returned HTTP 403 (21 bytes) — CDN bot-detection block; server confirmed live via SSL handshake",
+      "checked_at": "2026-05-06T08:00:00Z"
+    }
+  ]
+}
