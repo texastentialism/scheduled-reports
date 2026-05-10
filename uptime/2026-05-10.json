@@ -1,0 +1,100 @@
+{
+  "date": "2026-05-10",
+  "total_sites": 8,
+  "up": 0,
+  "down": 0,
+  "check_failed": 8,
+  "ssl_warnings": 8,
+  "alerts_triggered": true,
+  "note": "All 8 sites returned HTTP 403 from both WebFetch and curl (x-deny-reason: host_not_allowed) — consistent with prior days; agent-environment network proxy blocks outbound HTTP. SSL handshakes via openssl s_client succeeded for all 8 domains, confirming servers are live. SSL WARNING: certs now show notAfter=Jun 9 2026 (29 days remaining, below 30-day threshold). Yesterday showed Jun 8; today Jun 9 — one-day forward creep continues, Vercel Let's Encrypt auto-renewal still pending. Expect a larger jump to ~90-day expiry once renewal completes. SSL warning is genuine; monitor daily until renewal resolves.",
+  "sites": [
+    {
+      "url": "https://pesqueeze.com",
+      "name": "The Squeeze",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-09",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 host_not_allowed — agent network proxy blocks all outbound HTTP; server confirmed live via SSL handshake (cert valid, expires 2026-06-09)",
+      "checked_at": "2026-05-10T12:17:49Z"
+    },
+    {
+      "url": "https://texpolls.com",
+      "name": "Texas Elections",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-09",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 host_not_allowed — agent network proxy blocks all outbound HTTP; server confirmed live via SSL handshake (cert valid, expires 2026-06-09)",
+      "checked_at": "2026-05-10T12:17:49Z"
+    },
+    {
+      "url": "https://tylerwig.com",
+      "name": "Career Portfolio",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-09",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 host_not_allowed — agent network proxy blocks all outbound HTTP; server confirmed live via SSL handshake (cert valid, expires 2026-06-09)",
+      "checked_at": "2026-05-10T12:17:49Z"
+    },
+    {
+      "url": "https://spokenkey.com",
+      "name": "SpokenKey",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-09",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 host_not_allowed — agent network proxy blocks all outbound HTTP; server confirmed live via SSL handshake (cert valid, expires 2026-06-09)",
+      "checked_at": "2026-05-10T12:17:49Z"
+    },
+    {
+      "url": "https://twig-orbit.vercel.app",
+      "name": "Orbit Dashboard",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-09",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 host_not_allowed — agent network proxy blocks all outbound HTTP; server confirmed live via SSL handshake (cert valid, expires 2026-06-09)",
+      "checked_at": "2026-05-10T12:17:49Z"
+    },
+    {
+      "url": "https://meridian-tyler.vercel.app",
+      "name": "Meridian",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-09",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 host_not_allowed — agent network proxy blocks all outbound HTTP; server confirmed live via SSL handshake (cert valid, expires 2026-06-09)",
+      "checked_at": "2026-05-10T12:17:49Z"
+    },
+    {
+      "url": "https://mise-app-ochre.vercel.app",
+      "name": "Mise",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-09",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 host_not_allowed — agent network proxy blocks all outbound HTTP; server confirmed live via SSL handshake (cert valid, expires 2026-06-09)",
+      "checked_at": "2026-05-10T12:17:49Z"
+    },
+    {
+      "url": "https://converge-refresh.vercel.app",
+      "name": "Converge Refresh",
+      "status": "check_failed",
+      "response_size_bytes": null,
+      "ssl_expiry": "2026-06-09",
+      "ssl_days_remaining": 29,
+      "ssl_warning": true,
+      "error": "HTTP 403 host_not_allowed — agent network proxy blocks all outbound HTTP; server confirmed live via SSL handshake (cert valid, expires 2026-06-09)",
+      "checked_at": "2026-05-10T12:17:49Z"
+    }
+  ]
+}
