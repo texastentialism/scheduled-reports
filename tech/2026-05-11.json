@@ -1,0 +1,113 @@
+{
+  "date": "2026-05-11",
+  "period": "2026-05-04 to 2026-05-11",
+  "stack": ["Next.js 15/16", "React 19", "TypeScript 5.x", "Tailwind CSS v4", "Vercel platform", "Node.js 22+", "Recharts 3", "lucide-react"],
+  "summary": {
+    "urgent_count": 1,
+    "recommended_count": 2,
+    "fyi_count": 2,
+    "top_action": "Upgrade Next.js to 16.2.6 (or 15.5.18) immediately — 7 high-severity security patches released May 7"
+  },
+  "releases": [
+    {
+      "package": "next.js",
+      "category": "URGENT",
+      "versions": ["16.2.6", "15.5.18"],
+      "released": "2026-05-07",
+      "type": "security_patch",
+      "breaking_changes": false,
+      "highlights": [
+        "HIGH: Denial of Service with Server Components",
+        "HIGH: Middleware/Proxy bypass via segment-prefetch routes (2 advisories)",
+        "HIGH: Connection exhaustion in Cache Components",
+        "HIGH: Dynamic route parameter injection bypass",
+        "HIGH: Server-side request forgery with WebSocket upgrades",
+        "HIGH: Middleware/Proxy bypass in Pages Router with i18n",
+        "MODERATE: XSS with CSP nonces and beforeInteractive scripts",
+        "MODERATE: Image Optimization API denial of service",
+        "MODERATE: Cache poisoning in React Server Components",
+        "LOW: Cache poisoning via collision in cache-busting",
+        "LOW: Middleware redirect cache poisoning"
+      ],
+      "action": "Run `npm install next@16.2.6` (or `next@15.5.18` if staying on v15) in all repos immediately. This is a security-only patch — no breaking changes.",
+      "affects_repos": ["the-squeeze", "Career-Portfolio", "career-launchpad", "cca-study", "orbit-dashboard"]
+    },
+    {
+      "package": "tailwindcss",
+      "category": "RECOMMENDED",
+      "versions": ["4.3.0"],
+      "released": "2026-05-08",
+      "type": "minor",
+      "breaking_changes": false,
+      "highlights": [
+        "New @container-size utility for container queries",
+        "Scrollbar styling utilities: scrollbar-{auto,thin,none}, scrollbar-thumb-*, scrollbar-track-*, scrollbar-gutter-*",
+        "New zoom-* and tab-* utilities",
+        "Enhanced @variant support for stacked and compound variants",
+        "Functional @utility definitions now support --default(…) syntax",
+        "Fixed @plugin package resolution in Vite builds",
+        "Fixed relative import paths in @tailwindcss/vite"
+      ],
+      "action": "Update when convenient — no breaking changes, useful new utilities especially scrollbar and container-size.",
+      "affects_repos": ["the-squeeze (on v3 — upgrade to v4 is a separate larger effort)"]
+    },
+    {
+      "package": "react",
+      "category": "FYI",
+      "versions": ["19.2.6", "19.1.7", "19.0.6"],
+      "released": "2026-05-06",
+      "type": "patch",
+      "breaking_changes": false,
+      "highlights": [
+        "React Server Components: type hardening and performance improvements"
+      ],
+      "action": "Routine patch — pick up via `npm update react react-dom` at next opportunity.",
+      "affects_repos": ["all repos using React 19"]
+    },
+    {
+      "package": "node.js",
+      "category": "FYI",
+      "versions": ["26.1.0", "26.0.0"],
+      "released": "2026-05-07 / 2026-05-05",
+      "type": "major",
+      "breaking_changes": true,
+      "highlights": [
+        "Temporal API enabled by default (replaces legacy Date object)",
+        "V8 14.6: Map.getOrInsert(), Iterator.concat() proposals",
+        "Undici 8.0.2 HTTP client",
+        "BREAKING: http.writeHeader() removed (use writeHead())",
+        "BREAKING: _stream_* private modules removed",
+        "BREAKING: --experimental-transform-types flag removed",
+        "BREAKING: GCC 13.2+ required for builds",
+        "BREAKING: Python 3.10+ required (drops 3.9)",
+        "BREAKING: NODE_MODULE_VERSION bumped to 147 — recompile native modules",
+        "BREAKING: module.register() runtime-deprecated",
+        "Current LTS: v24.15.0 (Apr 2026); Node 26 enters LTS October 2026"
+      ],
+      "action": "Monitor only. Node 26 is 'Current' (not LTS until Oct 2026). Stack targets Node 22+. No action needed until LTS announcement.",
+      "affects_repos": ["all — runtime compatibility check before adopting"]
+    },
+    {
+      "package": "lucide-react",
+      "category": "FYI",
+      "versions": ["1.14.0", "1.13.0", "1.12.0"],
+      "released": "2026-04-29",
+      "type": "minor",
+      "breaking_changes": false,
+      "highlights": [
+        "v1.14.0: Added repeat-off icon",
+        "v1.13.0: Added waves-vertical icon, doc URL fixes",
+        "v1.12.0: Added folder-bookmark and astroid icons"
+      ],
+      "action": "Note: all repos on lucide-react v0.x — v1.x is a major bump. Upgrade when doing a broader icon pass. Icon-only changes, no API breaks noted.",
+      "affects_repos": ["the-squeeze", "texas-elections", "Career-Portfolio", "career-launchpad", "orbit-dashboard"]
+    }
+  ],
+  "vercel_platform": {
+    "note": "vercel.com/changelog blocked by sandbox egress restriction — could not fetch. Check https://vercel.com/changelog manually for platform updates.",
+    "vercel_cli_latest": "53.3.2",
+    "vercel_cli_in_texas_elections": "50.44.0",
+    "action": "Upgrade vercel CLI in texas-elections: npm install vercel@53.3.2 — this is a major bump that fixes high-severity vulns in @vercel/* packages."
+  },
+  "no_releases": ["TypeScript (last: 6.0.3 Apr 16)", "Recharts (last: 3.8.1 Mar 25)", "Fuse.js", "sherpa-onnx"]
+}

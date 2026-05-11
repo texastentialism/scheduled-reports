@@ -1,0 +1,330 @@
+{
+  "date": "2026-05-11",
+  "repos_scanned": 6,
+  "total_high_vulns": 14,
+  "total_critical_vulns": 0,
+  "total_moderate_vulns": 26,
+  "prioritized_fixes": [
+    {
+      "priority": 1,
+      "repo": "texas-elections",
+      "action": "npm install next@16.2.6",
+      "reason": "Next.js HTTP request smuggling + unbounded disk cache growth; fix is non-breaking",
+      "severity": "high",
+      "auto_fixable": true
+    },
+    {
+      "priority": 2,
+      "repo": "the-squeeze",
+      "action": "npm audit fix",
+      "reason": "Next.js DoS with Server Components + postcss XSS via unescaped </style>; both auto-fixable",
+      "severity": "high",
+      "auto_fixable": true
+    },
+    {
+      "priority": 3,
+      "repo": "Career-Portfolio",
+      "action": "npm audit fix",
+      "reason": "fast-uri path traversal + host confusion (high); Next.js DoS (high); all auto-fixable",
+      "severity": "high",
+      "auto_fixable": true
+    },
+    {
+      "priority": 4,
+      "repo": "cca-study",
+      "action": "npm audit fix",
+      "reason": "fast-uri path traversal + host confusion, Next.js DoS, path-to-regexp ReDoS, picomatch method injection; all high and auto-fixable",
+      "severity": "high",
+      "auto_fixable": true
+    },
+    {
+      "priority": 5,
+      "repo": "career-launchpad",
+      "action": "npm audit fix",
+      "reason": "flatted prototype pollution, Next.js HTTP smuggling, picomatch method injection, vite path traversal; all high",
+      "severity": "high",
+      "auto_fixable": true
+    },
+    {
+      "priority": 6,
+      "repo": "orbit-dashboard",
+      "action": "npm install next@16.2.6",
+      "reason": "Next.js HTTP request smuggling + unbounded disk cache growth; auto-fixable",
+      "severity": "high",
+      "auto_fixable": true
+    },
+    {
+      "priority": 7,
+      "repo": "texas-elections",
+      "action": "npm install vercel@53.3.2",
+      "reason": "23 high vulns in @vercel/* packages (path-to-regexp ReDoS, @vercel/python-analysis, etc.) — requires major CLI version bump",
+      "severity": "high",
+      "auto_fixable": false,
+      "semver_major_bump": true
+    }
+  ],
+  "repos": {
+    "the-squeeze": {
+      "total_dependencies": "~1200 (npm install ran)",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 1,
+        "high": 1,
+        "critical": 0,
+        "total": 2
+      },
+      "high_vulns": [
+        {
+          "package": "next",
+          "severity": "high",
+          "titles": ["Next.js has a Denial of Service with Server Components"],
+          "fix_available": true,
+          "auto_fixable": true
+        }
+      ],
+      "moderate_vulns": [
+        {
+          "package": "postcss",
+          "severity": "moderate",
+          "titles": ["PostCSS has XSS via Unescaped </style> in CSS Stringify Output"],
+          "fix_available": true,
+          "auto_fixable": true
+        }
+      ],
+      "major_outdated": {
+        "@types/node": {"current": "20.19.33", "latest": "25.6.2"},
+        "@vercel/analytics": {"current": "1.6.1", "latest": "2.0.1"},
+        "eslint": {"current": "8.57.1", "latest": "10.3.0"},
+        "eslint-config-next": {"current": "15.5.12", "latest": "16.2.6"},
+        "lucide-react": {"current": "0.460.0", "latest": "1.14.0"},
+        "next": {"current": "15.5.14", "latest": "16.2.6"},
+        "tailwindcss": {"current": "3.4.19", "latest": "4.3.0"},
+        "typescript": {"current": "5.9.3", "latest": "6.0.3"}
+      },
+      "recommended_command": "npm audit fix"
+    },
+    "texas-elections": {
+      "total_dependencies": "~1500 (npm install ran)",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 1,
+        "moderate": 12,
+        "high": 23,
+        "critical": 0,
+        "total": 36
+      },
+      "high_vulns": [
+        {
+          "package": "next",
+          "severity": "high",
+          "titles": ["Next.js: HTTP request smuggling in rewrites", "Next.js: Unbounded next/image disk cache growth can exhaust storage"],
+          "fix_available": "next@16.2.6",
+          "auto_fixable": true
+        },
+        {
+          "package": "@vercel/backends and related @vercel/* packages",
+          "severity": "high",
+          "titles": ["path-to-regexp ReDoS via sequential optional groups", "path-to-regexp ReDoS via multiple wildcards", "@vercel/python-analysis vulnerability"],
+          "fix_available": "vercel@53.3.2",
+          "auto_fixable": false,
+          "semver_major_bump": true,
+          "note": "23 of 36 total vulns are in @vercel/* deps — all resolved by upgrading vercel CLI to v53.3.2"
+        },
+        {
+          "package": "vite",
+          "severity": "high",
+          "titles": ["Vite Vulnerable to Path Traversal in Optimized Deps .map Handling", "Vite: server.fs.deny bypassed with queries"],
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "flatted",
+          "severity": "high",
+          "titles": ["Prototype Pollution via parse() in NodeJS flatted"],
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "picomatch",
+          "severity": "high",
+          "titles": ["Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching"],
+          "fix_available": true,
+          "auto_fixable": true
+        }
+      ],
+      "major_outdated": {
+        "@types/node": {"current": "20.19.33", "latest": "25.6.2"},
+        "eslint": {"current": "9.39.3", "latest": "10.3.0"},
+        "lucide-react": {"current": "0.575.0", "latest": "1.14.0"},
+        "typescript": {"current": "5.9.3", "latest": "6.0.3"},
+        "vercel": {"current": "50.44.0", "latest": "53.3.2"}
+      },
+      "recommended_command": "npm install next@16.2.6 && npm audit fix && npm install vercel@53.3.2"
+    },
+    "Career-Portfolio": {
+      "total_dependencies": "~1200 (npm install ran)",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 5,
+        "high": 2,
+        "critical": 0,
+        "total": 7
+      },
+      "high_vulns": [
+        {
+          "package": "fast-uri",
+          "severity": "high",
+          "titles": ["fast-uri vulnerable to path traversal via percent-encoded dot segments", "fast-uri vulnerable to host confusion via percent-encoded authority delimiters"],
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "next",
+          "severity": "high",
+          "titles": ["Next.js has a Denial of Service with Server Components"],
+          "fix_available": true,
+          "auto_fixable": true
+        }
+      ],
+      "major_outdated": {
+        "@types/node": {"current": "22.19.11", "latest": "25.6.2"},
+        "eslint": {"current": "9.39.3", "latest": "10.3.0"},
+        "lucide-react": {"current": "0.575.0", "latest": "1.14.0"},
+        "shadcn": {"current": "3.8.5", "latest": "4.7.0"},
+        "typescript": {"current": "5.9.3", "latest": "6.0.3"}
+      },
+      "recommended_command": "npm audit fix"
+    },
+    "career-launchpad": {
+      "total_dependencies": "~1200 (npm install ran)",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 2,
+        "high": 4,
+        "critical": 0,
+        "total": 6
+      },
+      "high_vulns": [
+        {
+          "package": "flatted",
+          "severity": "high",
+          "titles": ["Prototype Pollution via parse() in NodeJS flatted"],
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "next",
+          "severity": "high",
+          "titles": ["Next.js: HTTP request smuggling in rewrites", "Next.js: Unbounded next/image disk cache growth can exhaust storage"],
+          "fix_available": "next@16.2.6",
+          "auto_fixable": true
+        },
+        {
+          "package": "picomatch",
+          "severity": "high",
+          "titles": ["Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching"],
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "vite",
+          "severity": "high",
+          "titles": ["Vite Vulnerable to Path Traversal in Optimized Deps .map Handling", "Vite: server.fs.deny bypassed with queries"],
+          "fix_available": true,
+          "auto_fixable": true
+        }
+      ],
+      "major_outdated": {
+        "@types/node": {"current": "20.19.37", "latest": "25.6.2"},
+        "eslint": {"current": "9.39.4", "latest": "10.3.0"},
+        "lucide-react": {"current": "0.577.0", "latest": "1.14.0"},
+        "typescript": {"current": "5.9.3", "latest": "6.0.3"}
+      },
+      "recommended_command": "npm audit fix"
+    },
+    "cca-study": {
+      "total_dependencies": "~1200 (npm install ran)",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 6,
+        "high": 4,
+        "critical": 0,
+        "total": 10
+      },
+      "high_vulns": [
+        {
+          "package": "fast-uri",
+          "severity": "high",
+          "titles": ["fast-uri vulnerable to path traversal via percent-encoded dot segments", "fast-uri vulnerable to host confusion via percent-encoded authority delimiters"],
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "next",
+          "severity": "high",
+          "titles": ["Next.js has a Denial of Service with Server Components"],
+          "fix_available": "next@16.2.6",
+          "auto_fixable": true
+        },
+        {
+          "package": "path-to-regexp",
+          "severity": "high",
+          "titles": ["path-to-regexp vulnerable to Denial of Service via sequential optional groups", "path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards"],
+          "fix_available": true,
+          "auto_fixable": true
+        },
+        {
+          "package": "picomatch",
+          "severity": "high",
+          "titles": ["Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching"],
+          "fix_available": true,
+          "auto_fixable": true
+        }
+      ],
+      "major_outdated": {
+        "@types/node": {"current": "20.19.37", "latest": "25.6.2"},
+        "eslint": {"current": "9.39.4", "latest": "10.3.0"},
+        "typescript": {"current": "5.9.3", "latest": "6.0.3"}
+      },
+      "recommended_command": "npm audit fix"
+    },
+    "orbit-dashboard": {
+      "total_dependencies": "~1000 (npm install ran)",
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 1,
+        "high": 1,
+        "critical": 0,
+        "total": 2
+      },
+      "high_vulns": [
+        {
+          "package": "next",
+          "severity": "high",
+          "titles": ["Next.js: HTTP request smuggling in rewrites", "Next.js: Unbounded next/image disk cache growth can exhaust storage"],
+          "fix_available": "next@16.2.6",
+          "auto_fixable": true
+        }
+      ],
+      "major_outdated": {
+        "@types/node": {"current": "20.19.37", "latest": "25.6.2"},
+        "framer-motion": {"current": "11.18.2", "latest": "12.38.0"},
+        "lucide-react": {"current": "0.577.0", "latest": "1.14.0"},
+        "typescript": {"current": "5.9.3", "latest": "6.0.3"}
+      },
+      "recommended_command": "npm install next@16.2.6 && npm audit fix"
+    }
+  },
+  "cross_repo_patterns": {
+    "next_js_security_patches": "ALL repos using Next.js have high-severity vulns patched in v15.5.18 / v16.2.6 (released May 7). Upgrade is non-breaking and urgent.",
+    "lucide_react_v1": "All repos on lucide-react v0.x; v1.x is a major version bump — plan a coordinated upgrade, but not urgent (icon-only changes).",
+    "typescript_6": "All repos on TypeScript 5.9.x; TS 6.0.3 is available — coordinate upgrade when next touching each repo.",
+    "eslint_10": "All repos on ESLint 8 or 9; v10 available — plan upgrade, not urgent.",
+    "types_node_25": "All repos on @types/node 20.x; v25.x available — upgrade when bumping Node target."
+  }
+}
