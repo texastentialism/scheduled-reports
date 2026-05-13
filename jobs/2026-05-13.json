@@ -1,0 +1,63 @@
+{
+  "date": "2026-05-13",
+  "mode": "selective",
+  "roles": [],
+  "market_signals": [
+    {
+      "type": "launch",
+      "company": "Anthropic",
+      "summary": "Anthropic launched a $1.5B standalone enterprise AI services joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs (plus Apollo, General Atlantic, GIC, Leonard Green, Sequoia as partners). The structure mirrors Palantir's forward-deployment model — Anthropic engineers embedded directly in the venture — and is explicitly designed to undercut traditional consulting firms by combining Claude access with implementation capability. Anthropic also launched the Claude Partner Network (March 2026) with $100M committed for partner training, co-marketing, and joint market development.",
+      "date": "2026-05-04",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
+    },
+    {
+      "type": "launch",
+      "company": "OpenAI",
+      "summary": "OpenAI launched 'The Development Company,' a $10B enterprise AI services venture backed by 19 investors, running parallel to Anthropic's JV. Announced on the same day as Anthropic's venture. OpenAI closed a $122B funding round at $852B post-money valuation in March 2026 and is generating ~$2B/month in revenue (enterprise >40% of mix).",
+      "date": "2026-05-04",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
+    },
+    {
+      "type": "funding",
+      "company": "ElevenLabs",
+      "summary": "ElevenLabs tripled its valuation to $11B as of early May 2026. The company is one of the fastest-growing AI platforms, with voice synthesis expanding into enterprise and developer markets. At $11B it is now a significant late-stage target. No open CoS or S&O postings surfaced this week.",
+      "date": "2026-05-01",
+      "url": "https://aifundingtracker.com/top-50-ai-startups/"
+    },
+    {
+      "type": "funding",
+      "company": "Modal Labs",
+      "summary": "Modal Labs (AI inference/compute infrastructure) is in talks to raise at a $2.5B valuation, more than doubling its $1.1B Series B valuation from late 2025. Revenue hit $50M ARR in February 2026. A Head of Product Marketing role is open on Ashby. Industry fit for Tyler is moderate (dev tools/infra) but the trajectory and stage are notable.",
+      "date": "2026-02-11",
+      "url": "https://techcrunch.com/2026/02/11/ai-inference-startup-modal-labs-in-talks-to-raise-at-2-5b-valuation-sources-say/"
+    },
+    {
+      "type": "exec",
+      "company": "Harvey",
+      "summary": "Harvey (legal AI, ~$11B valuation) hired Keith Enright (former Google CPO, ex-Gibson Dunn) as Chief Strategy Officer in March 2026. CSO seat is now filled, but Harvey's rapid growth and legal-AI category leadership may generate CoS or S&O roles soon. Worth monitoring on a monthly basis.",
+      "date": "2026-03-23",
+      "url": "https://www.harvey.ai/blog/keith-enright-joins-harvey-as-chief-strategy-officer"
+    },
+    {
+      "type": "exec",
+      "company": "Anysphere (Cursor)",
+      "summary": "Cursor hired Brian McCarthy as President of Global Revenue and Field Operations (February 2026). Cursor is at ~$500M–1B ARR and was valued at $29B. With a President of Revenue now in seat, organizational growth may create CoS or Head of Strategic Operations openings in H1 2026. Worth monitoring.",
+      "date": "2026-02-09",
+      "url": "https://finance.yahoo.com/news/brian-mccarthy-joins-cursor-president-210900049.html"
+    },
+    {
+      "type": "launch",
+      "company": "Anthropic",
+      "summary": "Anthropic's CPO Mike Krieger resigned from Figma's board in April 2026 after reports that Anthropic is building a competing design/AI product. Signals Anthropic is moving aggressively into new product categories — a leading indicator of commercialization and GTM hiring.",
+      "date": "2026-04-16",
+      "url": "https://techcrunch.com/2026/04/16/anthropic-cpo-leaves-figmas-board-after-reports-he-will-offer-a-competing-product/"
+    }
+  ],
+  "summary": {
+    "total_roles": 0,
+    "top_picks": [],
+    "market_temp": "hot",
+    "note": "No roles cleared the selective filter this week. The most actionable signal is the simultaneous Anthropic + OpenAI enterprise JV announcements (May 4): both are building Palantir-style commercialization arms that will need GTM/commercialization/CoS leadership — roles that do not yet exist as open postings. Tyler's Converge experience (product commercialization inside a $150M professional services platform) is unusually strong positioning for these JVs when hiring opens. Worth monitoring Anthropic careers and the new JV entity over the next 30–60 days. ElevenLabs ($11B) and Cursor ($29B) are also scaling fast enough that senior ops/strategy roles are likely to surface in coming weeks.",
+    "selective_mode_rationale": "Tyler landed Converge Commercialization Lead in Q1 2026. The bar to surface a role is: exceptional target company (OpenAI/Anthropic/Perplexity/Figma/Linear/Oura/Substack/Airbnb tier), $200K+ base minimum, AND a credible sentence for why it's worth leaving a brand-new product role at Deloitte Converge. Roles reviewed this week (EliseAI CoS $175–250K/NYC, Handshake CoS posted March, Modal HoPMM/infra-focus, Fathom HoPMM/$91M stage) did not meet the combined threshold."
+  }
+}
