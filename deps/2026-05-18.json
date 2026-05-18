@@ -1,0 +1,329 @@
+{
+  "date": "2026-05-18",
+  "repos_scanned": 6,
+  "total_high_vulns": 37,
+  "total_moderate_vulns": 25,
+  "total_critical_vulns": 0,
+  "repos": [
+    {
+      "repo": "the-squeeze",
+      "audit": {
+        "critical": 0,
+        "high": 1,
+        "moderate": 1,
+        "low": 0,
+        "total": 2,
+        "high_vulns": [
+          {
+            "package": "next",
+            "severity": "high",
+            "description": "Next.js Denial of Service with Server Components",
+            "fix_available": true,
+            "fix_command": "npm install next@16.2.6",
+            "auto_fixable": false,
+            "note": "Requires major upgrade from v15 to v16 first"
+          }
+        ]
+      },
+      "major_version_bumps": [
+        {"package": "next", "current": "15.5.14", "latest": "16.2.6", "note": "MAJOR — security fix; also unlocks App Router improvements"},
+        {"package": "lucide-react", "current": "0.460.0", "latest": "1.16.0", "note": "MAJOR — review breaking changes"},
+        {"package": "tailwindcss", "current": "3.4.19", "latest": "4.3.0", "note": "MAJOR — v4 migration required; significant config changes"},
+        {"package": "typescript", "current": "5.9.3", "latest": "6.0.3", "note": "MAJOR — review breaking changes"}
+      ],
+      "minor_updates": [
+        {"package": "react", "current": "19.2.4", "latest": "19.2.6"},
+        {"package": "react-dom", "current": "19.2.4", "latest": "19.2.6"}
+      ]
+    },
+    {
+      "repo": "texas-elections",
+      "audit": {
+        "critical": 0,
+        "high": 25,
+        "moderate": 10,
+        "low": 1,
+        "total": 36,
+        "high_vulns": [
+          {
+            "package": "next",
+            "severity": "high",
+            "description": "Next.js DoS with Server Components; Middleware/Proxy bypass via segment-prefetch routes",
+            "fix_available": true,
+            "fix_command": "npm install next@16.2.6",
+            "auto_fixable": false
+          },
+          {
+            "package": "vercel (CLI devDep)",
+            "severity": "high",
+            "description": "Cluster of 24 HIGH vulns via vercel CLI devDependency: path-to-regexp (ReDoS), undici (insufficient randomness, unbounded decompression), tar (hardlink path traversal), minimatch (ReDoS), protobufjs (code injection, DoS), basic-ftp (DoS via multiline control response)",
+            "fix_available": true,
+            "fix_command": "npm install vercel@54.1.0 (isSemVerMajor: true)",
+            "auto_fixable": false,
+            "note": "These are in the vercel CLI devDependency, not runtime code. Risk is limited to dev/CI environments, not deployed app."
+          }
+        ]
+      },
+      "major_version_bumps": [
+        {"package": "lucide-react", "current": "0.575.0", "latest": "1.16.0", "note": "MAJOR — review breaking changes"},
+        {"package": "typescript", "current": "5.9.3", "latest": "6.0.3", "note": "MAJOR — review breaking changes"}
+      ],
+      "minor_updates": [
+        {"package": "next", "current": "16.2.4", "latest": "16.2.6", "note": "Security patch"},
+        {"package": "react", "current": "19.2.3", "latest": "19.2.6"},
+        {"package": "react-dom", "current": "19.2.3", "latest": "19.2.6"},
+        {"package": "recharts", "current": "3.7.0", "latest": "3.8.1"},
+        {"package": "tailwindcss", "current": "4.2.1", "latest": "4.3.0"}
+      ]
+    },
+    {
+      "repo": "Career-Portfolio",
+      "audit": {
+        "critical": 0,
+        "high": 2,
+        "moderate": 5,
+        "low": 0,
+        "total": 7,
+        "high_vulns": [
+          {
+            "package": "next",
+            "severity": "high",
+            "description": "Next.js DoS with Server Components",
+            "fix_available": true,
+            "fix_command": "npm install next@16.2.6",
+            "auto_fixable": false
+          },
+          {
+            "package": "fast-uri",
+            "severity": "high",
+            "description": "Path traversal via percent-encoded dot segments; host confusion via percent-encoded authority delimiters",
+            "fix_available": true,
+            "fix_command": "npm audit fix",
+            "auto_fixable": true
+          }
+        ]
+      },
+      "major_version_bumps": [
+        {"package": "lucide-react", "current": "0.575.0", "latest": "1.16.0", "note": "MAJOR — review breaking changes"},
+        {"package": "typescript", "current": "5.9.3", "latest": "6.0.3", "note": "MAJOR — review breaking changes"}
+      ],
+      "minor_updates": [
+        {"package": "next", "current": "16.2.2", "latest": "16.2.6", "note": "Security patch"},
+        {"package": "react", "current": "19.2.4", "latest": "19.2.6"},
+        {"package": "react-dom", "current": "19.2.4", "latest": "19.2.6"},
+        {"package": "framer-motion", "current": "12.36.0", "latest": "12.38.0"},
+        {"package": "tailwindcss", "current": "4.2.1", "latest": "4.3.0"}
+      ]
+    },
+    {
+      "repo": "career-launchpad",
+      "audit": {
+        "critical": 0,
+        "high": 4,
+        "moderate": 2,
+        "low": 0,
+        "total": 6,
+        "high_vulns": [
+          {
+            "package": "next",
+            "severity": "high",
+            "description": "HTTP request smuggling in rewrites; unbounded next/image disk cache growth",
+            "fix_available": true,
+            "fix_command": "npm install next@16.2.6",
+            "auto_fixable": false
+          },
+          {
+            "package": "vite",
+            "severity": "high",
+            "description": "Path traversal in Optimized Deps .map handling; server.fs.deny bypass with query params",
+            "fix_available": true,
+            "fix_command": "npm audit fix",
+            "auto_fixable": true
+          },
+          {
+            "package": "flatted",
+            "severity": "high",
+            "description": "Prototype pollution via parse() in NodeJS flatted",
+            "fix_available": true,
+            "fix_command": "npm audit fix",
+            "auto_fixable": true
+          },
+          {
+            "package": "picomatch",
+            "severity": "high",
+            "description": "Method injection in POSIX character classes causes incorrect glob matching",
+            "fix_available": true,
+            "fix_command": "npm audit fix",
+            "auto_fixable": true
+          }
+        ]
+      },
+      "major_version_bumps": [
+        {"package": "lucide-react", "current": "0.577.0", "latest": "1.16.0", "note": "MAJOR — review breaking changes"},
+        {"package": "typescript", "current": "5.9.3", "latest": "6.0.3", "note": "MAJOR — review breaking changes"}
+      ],
+      "minor_updates": [
+        {"package": "next", "current": "16.1.6", "latest": "16.2.6", "note": "Security patch — pinned version, must update explicitly"},
+        {"package": "@anthropic-ai/sdk", "current": "0.78.0", "latest": "0.96.0", "note": "18 minor versions behind — may miss prompt caching improvements and new model support"},
+        {"package": "react", "current": "19.2.3", "latest": "19.2.6"},
+        {"package": "react-dom", "current": "19.2.3", "latest": "19.2.6"},
+        {"package": "tailwindcss", "current": "4.2.1", "latest": "4.3.0"}
+      ]
+    },
+    {
+      "repo": "cca-study",
+      "audit": {
+        "critical": 0,
+        "high": 4,
+        "moderate": 6,
+        "low": 0,
+        "total": 10,
+        "high_vulns": [
+          {
+            "package": "next",
+            "severity": "high",
+            "description": "Next.js DoS with Server Components",
+            "fix_available": true,
+            "fix_command": "npm install next@16.2.6",
+            "auto_fixable": false
+          },
+          {
+            "package": "fast-uri",
+            "severity": "high",
+            "description": "Path traversal via percent-encoded dot segments; host confusion via percent-encoded authority delimiters",
+            "fix_available": true,
+            "fix_command": "npm audit fix",
+            "auto_fixable": true
+          },
+          {
+            "package": "path-to-regexp",
+            "severity": "high",
+            "description": "ReDoS via sequential optional groups; ReDoS via multiple wildcards",
+            "fix_available": true,
+            "fix_command": "npm audit fix",
+            "auto_fixable": true
+          },
+          {
+            "package": "picomatch",
+            "severity": "high",
+            "description": "Method injection in POSIX character classes causes incorrect glob matching",
+            "fix_available": true,
+            "fix_command": "npm audit fix",
+            "auto_fixable": true
+          }
+        ]
+      },
+      "major_version_bumps": [
+        {"package": "typescript", "current": "5.9.3", "latest": "6.0.3", "note": "MAJOR — review breaking changes"}
+      ],
+      "minor_updates": [
+        {"package": "next", "current": "16.2.1", "latest": "16.2.6", "note": "Security patch — pinned version, must update explicitly"},
+        {"package": "lucide-react", "current": "1.0.1", "latest": "1.16.0"},
+        {"package": "react", "current": "19.2.4", "latest": "19.2.6"},
+        {"package": "react-dom", "current": "19.2.4", "latest": "19.2.6"},
+        {"package": "tailwindcss", "current": "4.2.2", "latest": "4.3.0"}
+      ]
+    },
+    {
+      "repo": "orbit-dashboard",
+      "audit": {
+        "critical": 0,
+        "high": 1,
+        "moderate": 1,
+        "low": 0,
+        "total": 2,
+        "high_vulns": [
+          {
+            "package": "next",
+            "severity": "high",
+            "description": "HTTP request smuggling in rewrites; unbounded next/image disk cache growth",
+            "fix_available": true,
+            "fix_command": "npm install next@16.2.6",
+            "auto_fixable": false
+          }
+        ]
+      },
+      "major_version_bumps": [
+        {"package": "framer-motion", "current": "11.18.2", "latest": "12.38.0", "note": "MAJOR — significant API changes in v12"},
+        {"package": "lucide-react", "current": "0.577.0", "latest": "1.16.0", "note": "MAJOR — review breaking changes"},
+        {"package": "typescript", "current": "5.9.3", "latest": "6.0.3", "note": "MAJOR — review breaking changes"}
+      ],
+      "minor_updates": [
+        {"package": "next", "current": "16.1.6", "latest": "16.2.6", "note": "Security patch — pinned version, must update explicitly"},
+        {"package": "react", "current": "19.2.3", "latest": "19.2.6"},
+        {"package": "react-dom", "current": "19.2.3", "latest": "19.2.6"},
+        {"package": "recharts", "current": "3.8.0", "latest": "3.8.1"},
+        {"package": "tailwindcss", "current": "4.2.1", "latest": "4.3.0"}
+      ]
+    }
+  ],
+  "prioritized_fixes": [
+    {
+      "priority": 1,
+      "action": "Patch next to 16.2.6 in all repos",
+      "severity": "HIGH",
+      "repos": ["texas-elections", "Career-Portfolio", "career-launchpad", "cca-study", "orbit-dashboard"],
+      "command": "npm install next@16.2.6",
+      "rationale": "13 security advisories in the May 2026 coordinated release including DoS, SSRF, middleware bypass, HTTP smuggling. Patch is non-breaking (minor semver bump for 16.x repos)."
+    },
+    {
+      "priority": 2,
+      "action": "Major upgrade of the-squeeze from Next 15 to 16",
+      "severity": "HIGH",
+      "repos": ["the-squeeze"],
+      "rationale": "the-squeeze is on Next 15.5.14 and has a HIGH next vuln. Must upgrade to 16.x to get security fixes. This is a major version bump — review Next 16 migration guide."
+    },
+    {
+      "priority": 3,
+      "action": "Run npm audit fix in career-launchpad, cca-study, Career-Portfolio",
+      "severity": "HIGH",
+      "repos": ["career-launchpad", "cca-study", "Career-Portfolio"],
+      "command": "npm audit fix",
+      "rationale": "Auto-fixable HIGH vulns: vite path traversal (career-launchpad), picomatch method injection (career-launchpad, cca-study), fast-uri path traversal (Career-Portfolio, cca-study), flatted prototype pollution (career-launchpad), path-to-regexp ReDoS (cca-study)."
+    },
+    {
+      "priority": 4,
+      "action": "Update @anthropic-ai/sdk in career-launchpad",
+      "severity": "MODERATE",
+      "repos": ["career-launchpad"],
+      "command": "npm install @anthropic-ai/sdk@0.96.0",
+      "rationale": "SDK is 18 minor versions behind (0.78.0 -> 0.96.0). Misses new Claude model support, prompt caching improvements, and potential API additions."
+    },
+    {
+      "priority": 5,
+      "action": "Patch react/react-dom to 19.2.6 across all repos",
+      "severity": "RECOMMENDED",
+      "repos": ["the-squeeze", "texas-elections", "Career-Portfolio", "career-launchpad", "cca-study", "orbit-dashboard"],
+      "command": "npm install react@19.2.6 react-dom@19.2.6",
+      "rationale": "Type hardening and performance improvements in 19.2.6."
+    },
+    {
+      "priority": 6,
+      "action": "Upgrade tailwindcss to v4.3.0",
+      "severity": "RECOMMENDED",
+      "repos": ["texas-elections", "Career-Portfolio", "career-launchpad", "cca-study", "orbit-dashboard"],
+      "command": "npm install tailwindcss@4.3.0",
+      "rationale": "New scrollbar utilities, color palettes, webpack plugin performance boost. Minor version upgrade."
+    },
+    {
+      "priority": 7,
+      "action": "Plan the-squeeze Tailwind v3 to v4 migration",
+      "severity": "RECOMMENDED",
+      "repos": ["the-squeeze"],
+      "rationale": "Only repo still on Tailwind v3. Major migration required; separate effort from the Next 15->16 upgrade."
+    },
+    {
+      "priority": 8,
+      "action": "Plan TypeScript 5 to 6 migration across all repos",
+      "severity": "FYI",
+      "repos": ["all"],
+      "rationale": "All repos are on TS 5.9.3; TS 6.0.3 is current. TS 7 (Go compiler, strict-by-default, ES5/AMD/UMD dropped) is targeting mid-2026 — plan a migration now to avoid a two-version jump."
+    }
+  ],
+  "summary": {
+    "critical_count": 0,
+    "high_count": 37,
+    "moderate_count": 25,
+    "top_concern": "Next.js HIGH vuln present in ALL 6 repos. The-squeeze is furthest behind (Next 15 + Tailwind v3). texas-elections has an additional 24 HIGH vulns in the vercel CLI devDependency (low runtime risk but should be addressed). career-launchpad @anthropic-ai/sdk is 18 versions stale."
+  }
+}

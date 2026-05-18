@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-18",
+  "stack": [
+    "Next.js 15/16",
+    "React 19",
+    "TypeScript 5.x/6.x",
+    "Tailwind CSS v4",
+    "Vercel platform",
+    "Node.js 22+",
+    "Recharts 3",
+    "Fuse.js",
+    "lucide-react",
+    "sherpa-onnx"
+  ],
+  "urgent": [
+    {
+      "package": "next",
+      "category": "URGENT",
+      "reason": "SECURITY — 13 advisories in May 2026 coordinated release",
+      "current_in_repos": {
+        "the-squeeze": "15.5.14",
+        "texas-elections": "16.2.4",
+        "Career-Portfolio": "16.2.2",
+        "career-launchpad": "16.1.6",
+        "cca-study": "16.2.1",
+        "orbit-dashboard": "16.1.6"
+      },
+      "latest": "16.2.6",
+      "release_date": "2026-05-07",
+      "breaking_changes": false,
+      "security_advisories": [
+        "Denial of Service with Server Components",
+        "Middleware/Proxy bypass in App Router via segment-prefetch routes (Incomplete Fix Follow-Up)",
+        "DoS via connection exhaustion in Cache Components",
+        "Middleware/Proxy bypass through dynamic route parameter injection",
+        "Server-Side Request Forgery in WebSocket upgrades",
+        "HTTP request smuggling in rewrites",
+        "Unbounded next/image disk cache growth (storage exhaustion)",
+        "Cross-site scripting"
+      ],
+      "action": "npm install next@16.2.6 in all repos. Note: the-squeeze is on Next 15 — requires major upgrade to 16 first.",
+      "url": "https://vercel.com/changelog/next-js-may-2026-security-release"
+    }
+  ],
+  "recommended": [
+    {
+      "package": "react",
+      "category": "RECOMMENDED",
+      "reason": "19.2.6 patch — type hardening and performance improvements",
+      "latest": "19.2.6",
+      "release_date": "2026-05-06",
+      "breaking_changes": false,
+      "action": "npm install react@19.2.6 react-dom@19.2.6",
+      "url": "https://github.com/facebook/react/blob/main/CHANGELOG.md"
+    },
+    {
+      "package": "tailwindcss",
+      "category": "RECOMMENDED",
+      "reason": "v4.3.0 — new scrollbar styling utilities, mauve/olive/mist/taupe color palettes, logical property utilities, first-class webpack plugin (performance boost in Next.js), new @container-size utility",
+      "latest": "4.3.0",
+      "release_date": "2026-05-08",
+      "breaking_changes": false,
+      "action": "npm install tailwindcss@4.3.0. Note: the-squeeze still on Tailwind v3 — plan migration to v4.",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v4-3"
+    },
+    {
+      "package": "lucide-react",
+      "category": "RECOMMENDED",
+      "reason": "Major version jump: 0.x -> 1.16.0 (released ~May 14). All repos are on old 0.x range; 1.x may have API changes.",
+      "latest": "1.16.0",
+      "release_date": "2026-05-14",
+      "breaking_changes": true,
+      "action": "Review 1.x migration guide before upgrading; API changes possible. Pin-test in one repo first.",
+      "url": "https://lucide.dev/"
+    },
+    {
+      "package": "nodejs",
+      "category": "RECOMMENDED",
+      "reason": "Node.js 26 released May 5 as new Current; Node 22 remains LTS. March 2026 security patches addressed 2 HIGH + 4 MEDIUM vulns in Node 22 — ensure you are on latest 22.x patch.",
+      "latest_current": "26.0.0",
+      "latest_lts": "22.x (patch TBD)",
+      "release_date": "2026-05-05",
+      "breaking_changes": false,
+      "action": "Verify Vercel deployments are on latest Node 22 LTS patch. Evaluate Node 26 adoption timeline.",
+      "url": "https://nodejs.org/en/about/previous-releases"
+    }
+  ],
+  "fyi": [
+    {
+      "package": "typescript",
+      "category": "FYI",
+      "reason": "TypeScript is now at 6.0.3 (all repos pinned to 5.9.3). TypeScript 7 is targeting mid-2026 with a Go-based compiler; planned breaking changes: strict-by-default, ES5 target dropped, AMD/UMD/SystemJS removed.",
+      "latest": "6.0.3",
+      "current_in_repos": "5.9.3",
+      "breaking_changes": true,
+      "action": "Plan TS 6 -> 7 migration now. TS 7 breaking changes are significant. Do not auto-update.",
+      "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-9.html"
+    },
+    {
+      "package": "vercel-platform",
+      "category": "FYI",
+      "reason": "Vercel Firewall now manageable from CLI via `vercel firewall`. AI Gateway adds Fast Mode for Claude Opus 4.7 (~2.5x faster, 6x cost). Vercel Sandbox adds Node 26 support. Workflow Development Kit ships beta updates.",
+      "release_date": "2026-05",
+      "breaking_changes": false,
+      "action": "No action required. Consider using `vercel firewall` CLI for rule management.",
+      "url": "https://vercel.com/changelog"
+    },
+    {
+      "package": "recharts",
+      "category": "FYI",
+      "reason": "3.8.1 available (minor bump from 3.7.0/3.8.0). Bug fixes and improvements.",
+      "latest": "3.8.1",
+      "release_date": "2026-05",
+      "breaking_changes": false,
+      "action": "npm install recharts@3.8.1",
+      "url": "https://github.com/recharts/recharts/releases"
+    },
+    {
+      "package": "sherpa-onnx",
+      "category": "FYI",
+      "reason": "Latest npm version is 1.12.37 (published ~April 10, 2026). No new release in the last 7 days.",
+      "latest": "1.12.37",
+      "release_date": "2026-04-10",
+      "breaking_changes": false,
+      "action": "No action required.",
+      "url": "https://www.npmjs.com/package/sherpa-onnx"
+    }
+  ],
+  "summary": {
+    "urgent_count": 1,
+    "recommended_count": 4,
+    "fyi_count": 4,
+    "top_action": "PATCH next TO 16.2.6 ACROSS ALL REPOS — 13 security advisories including DoS, SSRF, middleware bypass, and HTTP smuggling. Also: the-squeeze is 2 major versions behind on Next (15->16) and still on Tailwind v3."
+  }
+}
